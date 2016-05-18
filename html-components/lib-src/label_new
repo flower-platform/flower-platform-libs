@@ -1,0 +1,13 @@
+PROPERTIES_BEGIN
+
+# example comment
+component.belongsToChildrenCategories = htmlPanel
+component.documentation = I'm a label and i can only stay on \
+panel
+
+fileToDownload.urls = https://raw.githubusercontent.com/angular-ui/bootstrap/master/src/accordion/accordion.js
+angularModulesToImport = ui.bootstrap.accordion
+
+PROPERTIES_END
+<span class="label label-default" style="width: $fp.width; margin-right: $fp.space right; margin-left: $fp.space left;">$fp.text</span>
+<br/>

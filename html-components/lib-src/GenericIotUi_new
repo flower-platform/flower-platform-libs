@@ -1,6 +1,7 @@
 <script>
 	var ui = angular.module("ui");
-	ui.controller("GenericComponentCtrl", ['$scope', '$http', '$interval', '$location', function($scope, $http, $interval, $location) {	
+	ui.controller("GenericComponentCtrl", ['$scope', '$http', '$interval', '$location', function($scope, $http, $interval, $location) {
+		descriptorsUrl = "getDescriptors"		
 		$http.get($scope.getBoardUrl("getDescriptors")).success(function(response) {
 			$scope.descriptors = response;
 		})

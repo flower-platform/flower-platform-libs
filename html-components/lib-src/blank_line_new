@@ -1,0 +1,4 @@
+PROPERTIES_BEGIN
+component.belongsToChildrenCategories = htmlComponent
+PROPERTIES_END
+<br/>

@@ -1,0 +1,16 @@
+PROPERTIES_BEGIN
+
+# example comment
+component.belongsToChildrenCategories = htmlComponent
+component.documentation = Panel!!!
+
+fileToDownload.urls = https://raw.githubusercontent.com/angular-ui/bootstrap/master/src/buttons/buttons.js, https://raw.githubusercontent.com/angular-ui/bootstrap/master/src/collapse/collapse.js
+angularModulesToImport = ui.bootstrap.collapse, ui.bootstrap.buttons 
+PROPERTIES_END
+
+<div class="panel panel-primary text-center" style="width: $fp.width; margin-right: $fp.space right; margin-left: $fp.space left;"  >
+	<div class="panel-heading">$fp.heading</div>
+	<div class="panel-body">
+			$fp.children.htmlPanel				
+	</div>
+</div>

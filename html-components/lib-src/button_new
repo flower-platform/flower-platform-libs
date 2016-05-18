@@ -1,0 +1,13 @@
+PROPERTIES_BEGIN
+
+# example comment
+component.belongsToChildrenCategories = htmlComponent, htmlPanel
+component.documentation = This is a button
+
+
+fileToDownload.urls =  https://raw.githubusercontent.com/angular-ui/bootstrap/master/src/buttons/buttons.js
+angularModulesToImport = ui.bootstrap.buttons
+
+PROPERTIES_END
+
+<button  class="btn btn-block btn-lg" type="button" disabled="$fp.disabled" style="width: $fp.width; margin-right: $fp.space right; margin-left: $fp.space left;">$fp.text</button>

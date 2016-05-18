@@ -1,0 +1,4 @@
+PROPERTIES_BEGIN
+component.belongsToChildrenCategories = htmlComponent
+PROPERTIES_END
+<div class="$fp.col witdh">$fp.children.htmlComponent</div>
