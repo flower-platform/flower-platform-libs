@@ -1,1 +1,4 @@
+PROPERTIES_BEGIN
+component.belongsToChildrenCategories = htmlComponent
+PROPERTIES_END
 <div class = "horiz" style="width: $fp.width; margin-right: $fp.space right; margin-left: $fp.space left;">$fp.children.htmlComponent</div>

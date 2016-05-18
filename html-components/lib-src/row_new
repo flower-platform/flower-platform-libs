@@ -1,4 +1,4 @@
 PROPERTIES_BEGIN
 component.belongsToChildrenCategories = htmlComponent
 PROPERTIES_END
-<div class="row">$fp.children.htmlComponent</div>
+<div class="row">$fp.children.rowChild</div>

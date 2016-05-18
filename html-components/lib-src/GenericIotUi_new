@@ -1,3 +1,6 @@
+PROPERTIES_BEGIN
+component.belongsToChildrenCategories = htmlComponent
+PROPERTIES_END
 <script>
 	var ui = angular.module("ui");
 	ui.controller("GenericComponentCtrl", ['$scope', '$http', '$interval', '$location', function($scope, $http, $interval, $location) {
