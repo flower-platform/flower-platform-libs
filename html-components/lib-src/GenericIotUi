@@ -1,7 +1,6 @@
 <script>
 	var ui = angular.module("ui");
-	ui.controller("GenericComponentCtrl", ['$scope', '$http', '$interval', '$location', function($scope, $http, $interval, $location) {
-		descriptorsUrl = "getDescriptors"		
+	ui.controller("GenericComponentCtrl", ['$scope', '$http', '$interval', '$location', function($scope, $http, $interval, $location) {	
 		$http.get($scope.getBoardUrl("getDescriptors")).success(function(response) {
 			$scope.descriptors = response;
 		})
@@ -32,9 +31,4 @@
 			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class=" col-md-8 col-md-offset-4"><span class="label label-default"><span class="glyphicon glyphicon-dashboard"></span> Free memory (SRAM): {{status.freeMem}} bytes</span>
-		</div>
-	</div>
-// TODO REVIEW: asta tr sa stea in template. Orice aplicatie va avea acest lucru, indiferent de ce componente vor exista
 </div>
