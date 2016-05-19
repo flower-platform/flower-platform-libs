@@ -1,2 +1,5 @@
+PROPERTIES_BEGIN
+component.belongsToChildrenCategories = htmlComponent
+PROPERTIES_END
 <span>$fp.text</span>
 <br/>
