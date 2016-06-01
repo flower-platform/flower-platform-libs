@@ -57,633 +57,608 @@
 <node TEXT="" POSITION="right" ID="ID_651622904" CREATED="1463403471745" MODIFIED="1463403471745">
 <attribute NAME="nodeType" VALUE="metamodel"/>
 <attribute NAME="prefix" VALUE="platform-cpp-arduino-ide"/>
-<node TEXT="" ID="ID_1489207885" CREATED="1464104241895" MODIFIED="1464104241895">
+<node TEXT="" ID="ID_806814231" CREATED="1464764571709" MODIFIED="1464764571709">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="typeOverride" VALUE="dynamic_default__componentsRoot"/>
-<node TEXT="" ID="ID_390829477" CREATED="1464104282060" MODIFIED="1464104282060">
+<node TEXT="" ID="ID_1361706651" CREATED="1464764574198" MODIFIED="1464764574198">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="ESP8266NativeNetworkAdapter"/>
 </node>
-<node TEXT="" ID="ID_151751324" CREATED="1464104282060" MODIFIED="1464104282060">
-<attribute NAME="nodeType" VALUE="addChildDescriptor"/>
-<attribute NAME="childType" VALUE="CharSequenceParser"/>
-</node>
-<node TEXT="" ID="ID_1517477797" CREATED="1464104282060" MODIFIED="1464104282060">
+<node TEXT="" ID="ID_747328902" CREATED="1464764574201" MODIFIED="1464764574201">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="ESP8266NetworkAdapter"/>
 </node>
-<node TEXT="" ID="ID_750435449" CREATED="1464104282060" MODIFIED="1464104282060">
-<attribute NAME="nodeType" VALUE="addChildDescriptor"/>
-<attribute NAME="childType" VALUE="ESP8266Client"/>
-</node>
-<node TEXT="" ID="ID_160774012" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_1292997000" CREATED="1464764574242" MODIFIED="1464764574242">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="EthernetNetworkAdapter"/>
 </node>
-<node TEXT="" ID="ID_1459297920" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_491969963" CREATED="1464764574243" MODIFIED="1464764574243">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="HttpServer"/>
 </node>
-<node TEXT="" ID="ID_515237513" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_1402502948" CREATED="1464764574246" MODIFIED="1464764574246">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="HttpCommandEvent"/>
 </node>
-<node TEXT="" ID="ID_1474419062" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_619819117" CREATED="1464764574249" MODIFIED="1464764574249">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="Input"/>
 </node>
-<node TEXT="" ID="ID_1505527772" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_137949778" CREATED="1464764574253" MODIFIED="1464764574253">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="MyComponent"/>
 </node>
-<node TEXT="" ID="ID_1295623840" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_492448924" CREATED="1464764574257" MODIFIED="1464764574257">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="Output"/>
 </node>
-<node TEXT="" ID="ID_347548746" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_386407559" CREATED="1464764574261" MODIFIED="1464764574261">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="Timer"/>
 </node>
-<node TEXT="" ID="ID_674900433" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_97840507" CREATED="1464764574265" MODIFIED="1464764574265">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="TimerEvent"/>
 </node>
-<node TEXT="" ID="ID_977866199" CREATED="1464104282090" MODIFIED="1464104282090">
+<node TEXT="" ID="ID_231480426" CREATED="1464764574267" MODIFIED="1464764574267">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="WiFi101NetworkAdapter"/>
 </node>
-<node TEXT="" ID="ID_1539449035" CREATED="1464104282090" MODIFIED="1464104282090">
+<node TEXT="" ID="ID_1187153580" CREATED="1464764574268" MODIFIED="1464764574268">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="WiFiNetworkAdapter"/>
 </node>
+<node TEXT="" ID="ID_828951585" CREATED="1464764574270" MODIFIED="1464764574270">
+<attribute NAME="nodeType" VALUE="addChildDescriptor"/>
+<attribute NAME="childType" VALUE="MyComponent2"/>
 </node>
-<node TEXT="" ID="ID_70200473" CREATED="1464104282060" MODIFIED="1464104282060">
+<node TEXT="" ID="ID_876345631" CREATED="1464764574275" MODIFIED="1464764574275">
+<attribute NAME="nodeType" VALUE="addChildDescriptor"/>
+<attribute NAME="childType" VALUE="MyComponent3"/>
+</node>
+</node>
+<node TEXT="" ID="ID_41011103" CREATED="1464764574197" MODIFIED="1464764574197">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="ESP8266NativeNetworkAdapter"/>
-<node TEXT="" ID="ID_1506069779" CREATED="1464104282060" MODIFIED="1464104282060">
+<node TEXT="" ID="ID_1563682511" CREATED="1464764574198" MODIFIED="1464764574198">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1935867602" CREATED="1464104282060" MODIFIED="1464104282060">
+<node TEXT="" ID="ID_416149877" CREATED="1464764574199" MODIFIED="1464764574199">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="ESP8266NativeNetworkAdapter.h"/>
 </node>
-</node>
-<node TEXT="" ID="ID_745684714" CREATED="1464104282060" MODIFIED="1464104282060">
-<attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
-<attribute NAME="name" VALUE="CharSequenceParser"/>
-<node TEXT="" ID="ID_1590483061" CREATED="1464104282060" MODIFIED="1464104282060">
-<attribute NAME="nodeType" VALUE="containingCategory"/>
-<attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
-<attribute NAME="name" VALUE="category.component"/>
-</node>
-<node TEXT="" ID="ID_729598156" CREATED="1464104282060" MODIFIED="1464104282060">
+<node TEXT="" ID="ID_103767171" CREATED="1464764574199" MODIFIED="1464764574199">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
-<attribute NAME="behaviorType" VALUE="import"/>
-<attribute NAME="value" VALUE="ESP8266NetworkAdapter.h"/>
-</node>
-<node TEXT="" ID="ID_1781859131" CREATED="1464104282060" MODIFIED="1464104282060">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="wildcardValue"/>
+<attribute NAME="behaviorType" VALUE="superClass"/>
+<attribute NAME="value" VALUE="IWiFiNetworkAdapter"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1219543629" CREATED="1464104282060" MODIFIED="1464104282060">
+<node TEXT="" ID="ID_926775652" CREATED="1464764574200" MODIFIED="1464764574200">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="ESP8266NetworkAdapter"/>
-<node TEXT="" ID="ID_200018681" CREATED="1464104282060" MODIFIED="1464104282060">
+<node TEXT="" ID="ID_1668496862" CREATED="1464764574200" MODIFIED="1464764574200">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_165515677" CREATED="1464104282060" MODIFIED="1464104282060">
+<node TEXT="" ID="ID_899697656" CREATED="1464764574201" MODIFIED="1464764574201">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="ESP8266NetworkAdapter.h"/>
 </node>
-<node TEXT="" ID="ID_228379398" CREATED="1464104282060" MODIFIED="1464104282060">
+<node TEXT="" ID="ID_233600060" CREATED="1464764574207" MODIFIED="1464764574207">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="WRITE_STATUS_READY"/>
-</node>
-<node TEXT="" ID="ID_797203856" CREATED="1464104282060" MODIFIED="1464104282060">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="WRITE_STATUS_WAITING_FOR_TRANSMIT_READY"/>
-</node>
-<node TEXT="" ID="ID_1216478454" CREATED="1464104282060" MODIFIED="1464104282060">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="WRITE_STATUS_TRANSMIT_READY"/>
-</node>
-<node TEXT="" ID="ID_1393049400" CREATED="1464104282060" MODIFIED="1464104282060">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="WRITE_STATUS_WAITING_FOR_SEND_OK"/>
-</node>
-<node TEXT="" ID="ID_1936039341" CREATED="1464104282060" MODIFIED="1464104282060">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="WRITE_STATUS_CLOSING_CONNECTION"/>
-</node>
-<node TEXT="" ID="ID_1986114849" CREATED="1464104282060" MODIFIED="1464104282060">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="readyParser"/>
-</node>
-<node TEXT="" ID="ID_914329361" CREATED="1464104282060" MODIFIED="1464104282060">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="okParser"/>
-</node>
-<node TEXT="" ID="ID_937955210" CREATED="1464104282060" MODIFIED="1464104282060">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="okToWriteParser"/>
-</node>
-<node TEXT="" ID="ID_494888326" CREATED="1464104282060" MODIFIED="1464104282060">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="sendOkParser"/>
-</node>
-<node TEXT="" ID="ID_284634972" CREATED="1464104282060" MODIFIED="1464104282060">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="connectParser"/>
-</node>
-<node TEXT="" ID="ID_1085973225" CREATED="1464104282060" MODIFIED="1464104282060">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="disconnectParser"/>
-</node>
-<node TEXT="" ID="ID_996059430" CREATED="1464104282060" MODIFIED="1464104282060">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="ipdParser"/>
-</node>
-<node TEXT="" ID="ID_554937948" CREATED="1464104282060" MODIFIED="1464104282060">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="bool"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="accessPointMode"/>
 </node>
-<node TEXT="" ID="ID_1107630338" CREATED="1464104282060" MODIFIED="1464104282060">
+<node TEXT="" ID="ID_1933165939" CREATED="1464764574208" MODIFIED="1464764574208">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="uint8_t"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="extraClientsSP"/>
 </node>
-<node TEXT="" ID="ID_1025122332" CREATED="1464104282060" MODIFIED="1464104282060">
+<node TEXT="" ID="ID_1824547266" CREATED="1464764574208" MODIFIED="1464764574208">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="ESP8266Client"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="recvClient"/>
 </node>
-<node TEXT="" ID="ID_101742015" CREATED="1464104282060" MODIFIED="1464104282060">
+<node TEXT="" ID="ID_1017467223" CREATED="1464764574209" MODIFIED="1464764574209">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="writeStatus"/>
 </node>
-<node TEXT="" ID="ID_123834307" CREATED="1464104282060" MODIFIED="1464104282060">
+<node TEXT="" ID="ID_1648927001" CREATED="1464764574209" MODIFIED="1464764574209">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="long "/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="readDeadlineTimestamp"/>
 </node>
-</node>
-<node TEXT="" ID="ID_1770911623" CREATED="1464104282060" MODIFIED="1464104282060">
-<attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
-<attribute NAME="name" VALUE="ESP8266Client"/>
-<node TEXT="" ID="ID_1355574502" CREATED="1464104282060" MODIFIED="1464104282060">
-<attribute NAME="nodeType" VALUE="containingCategory"/>
-<attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
-<attribute NAME="name" VALUE="category.component"/>
-</node>
-<node TEXT="" ID="ID_736988026" CREATED="1464104282060" MODIFIED="1464104282060">
+<node TEXT="" ID="ID_378999307" CREATED="1464764574241" MODIFIED="1464764574241">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
-<attribute NAME="behaviorType" VALUE="import"/>
-<attribute NAME="value" VALUE="ESP8266NetworkAdapter.h"/>
-</node>
-<node TEXT="" ID="ID_491921775" CREATED="1464104282070" MODIFIED="1464104282070">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="networkAdapter"/>
-</node>
-<node TEXT="" ID="ID_1185014779" CREATED="1464104282070" MODIFIED="1464104282070">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="clientId"/>
-</node>
-<node TEXT="" ID="ID_937241349" CREATED="1464104282070" MODIFIED="1464104282070">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="bytesExpected"/>
-</node>
-<node TEXT="" ID="ID_915734174" CREATED="1464104282070" MODIFIED="1464104282070">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="lastRead"/>
-</node>
-<node TEXT="" ID="ID_1725870088" CREATED="1464104282070" MODIFIED="1464104282070">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="bufSt"/>
-</node>
-<node TEXT="" ID="ID_588149290" CREATED="1464104282070" MODIFIED="1464104282070">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="stopped"/>
-</node>
-<node TEXT="" ID="ID_1805617904" CREATED="1464104282070" MODIFIED="1464104282070">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="closed"/>
+<attribute NAME="behaviorType" VALUE="superClass"/>
+<attribute NAME="value" VALUE="IWiFiNetworkAdapter"/>
 </node>
 </node>
-<node TEXT="" ID="ID_901573672" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_414794275" CREATED="1464764574241" MODIFIED="1464764574241">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="EthernetNetworkAdapter"/>
-<node TEXT="" ID="ID_171950406" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_1363268543" CREATED="1464764574241" MODIFIED="1464764574241">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_104577324" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_1922239924" CREATED="1464764574242" MODIFIED="1464764574242">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="EthernetNetworkAdapter.h"/>
 </node>
+<node TEXT="" ID="ID_1764607762" CREATED="1464764574242" MODIFIED="1464764574242">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="behaviorType" VALUE="superClass"/>
+<attribute NAME="value" VALUE="INetworkAdapter"/>
 </node>
-<node TEXT="" ID="ID_1191433398" CREATED="1464104282070" MODIFIED="1464104282070">
+</node>
+<node TEXT="" ID="ID_1014882772" CREATED="1464764574243" MODIFIED="1464764574243">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="HttpServer"/>
-<node TEXT="" ID="ID_889458459" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_1923629416" CREATED="1464764574243" MODIFIED="1464764574243">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1048309388" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_48200066" CREATED="1464764574244" MODIFIED="1464764574244">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="HttpServer.h"/>
 </node>
-<node TEXT="" ID="ID_280156852" CREATED="1464104282070" MODIFIED="1464104282070">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="CONTENT_TYPE_JSON"/>
-</node>
-<node TEXT="" ID="ID_542105008" CREATED="1464104282070" MODIFIED="1464104282070">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="CONTENT_TYPE_HTML"/>
-</node>
-<node TEXT="" ID="ID_853227035" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_865700300" CREATED="1464764574244" MODIFIED="1464764574244">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="HttpCommandEvent*"/>
 <attribute NAME="behaviorType" VALUE="componentEvent"/>
-<attribute NAME="value" VALUE="dynamic_platform-cpp-arduino-ide__HttpServer|onCommandReceived"/>
+<attribute NAME="value" VALUE="onCommandReceived"/>
 </node>
-</node>
-<node TEXT="" ID="ID_574785939" CREATED="1464104282070" MODIFIED="1464104282070">
-<attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
-<attribute NAME="name" VALUE="HttpServer|onCommandReceived"/>
-<node TEXT="" ID="ID_1553191447" CREATED="1464104282070" MODIFIED="1464104282070">
-<attribute NAME="nodeType" VALUE="containingCategory"/>
-<attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
-<attribute NAME="name" VALUE="category.event"/>
-</node>
-<node TEXT="" ID="ID_323620846" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_779789491" CREATED="1464764574245" MODIFIED="1464764574245">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
-<attribute NAME="behaviorType" VALUE="eventParameter"/>
-<attribute NAME="value" VALUE="HttpCommandEvent*"/>
+<attribute NAME="behaviorType" VALUE="superClass"/>
+<attribute NAME="value" VALUE="IProtocolHandler"/>
 </node>
 </node>
-<node TEXT="" ID="ID_777692264" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_1561599642" CREATED="1464764574245" MODIFIED="1464764574245">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="HttpCommandEvent"/>
-<node TEXT="" ID="ID_1224112269" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_1523139351" CREATED="1464764574246" MODIFIED="1464764574246">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1267797103" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_1266259019" CREATED="1464764574246" MODIFIED="1464764574246">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="HttpServer.h"/>
 </node>
-<node TEXT="" ID="ID_244242406" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_44251646" CREATED="1464764574247" MODIFIED="1464764574247">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="char"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="url"/>
 </node>
-<node TEXT="" ID="ID_1466943452" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_1720336153" CREATED="1464764574247" MODIFIED="1464764574247">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="HttpServer"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="server"/>
 </node>
-<node TEXT="" ID="ID_1002840264" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_801146027" CREATED="1464764574247" MODIFIED="1464764574247">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="Client"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="client"/>
 </node>
+<node TEXT="" ID="ID_1376965166" CREATED="1464764574248" MODIFIED="1464764574248">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="behaviorType" VALUE="superClass"/>
+<attribute NAME="value" VALUE="Event"/>
 </node>
-<node TEXT="" ID="ID_844369573" CREATED="1464104282070" MODIFIED="1464104282070">
+</node>
+<node TEXT="" ID="ID_86209464" CREATED="1464764574248" MODIFIED="1464764574248">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="Input"/>
-<node TEXT="" ID="ID_916970960" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_195586135" CREATED="1464764574248" MODIFIED="1464764574248">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1451560099" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_30793852" CREATED="1464764574249" MODIFIED="1464764574249">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="Input.h"/>
 </node>
-<node TEXT="" ID="ID_29127040" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_1901959852" CREATED="1464764574250" MODIFIED="1464764574250">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="bool"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="contributesToState"/>
 </node>
-<node TEXT="" ID="ID_673047586" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_359134805" CREATED="1464764574250" MODIFIED="1464764574250">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="ValueChangedEvent*"/>
 <attribute NAME="behaviorType" VALUE="componentEvent"/>
-<attribute NAME="value" VALUE="dynamic_platform-cpp-arduino-ide__Input|onValueChanged"/>
+<attribute NAME="value" VALUE="onValueChanged"/>
 </node>
-<node TEXT="" ID="ID_1357022082" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_1116031048" CREATED="1464764574250" MODIFIED="1464764574250">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="uint8_t"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="pin"/>
 </node>
-<node TEXT="" ID="ID_783259836" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_150439592" CREATED="1464764574251" MODIFIED="1464764574251">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="pollInterval"/>
 </node>
-<node TEXT="" ID="ID_1334188014" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_283943453" CREATED="1464764574251" MODIFIED="1464764574251">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="bool"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="internalPullUp"/>
 </node>
-<node TEXT="" ID="ID_584477397" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_1432295235" CREATED="1464764574252" MODIFIED="1464764574252">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="bool"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="isAnalog"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1107957824" CREATED="1464104282070" MODIFIED="1464104282070">
-<attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
-<attribute NAME="name" VALUE="Input|onValueChanged"/>
-<node TEXT="" ID="ID_1226841240" CREATED="1464104282070" MODIFIED="1464104282070">
-<attribute NAME="nodeType" VALUE="containingCategory"/>
-<attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
-<attribute NAME="name" VALUE="category.event"/>
-</node>
-<node TEXT="" ID="ID_752335058" CREATED="1464104282070" MODIFIED="1464104282070">
-<attribute NAME="nodeType" VALUE="genericDescriptor"/>
-<attribute NAME="behaviorType" VALUE="eventParameter"/>
-<attribute NAME="value" VALUE="ValueChangedEvent*"/>
-</node>
-</node>
-<node TEXT="" ID="ID_1400525360" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_1306804471" CREATED="1464764574252" MODIFIED="1464764574252">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="MyComponent"/>
-<node TEXT="" ID="ID_512275157" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_1742062617" CREATED="1464764574252" MODIFIED="1464764574252">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_677179886" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_331569646" CREATED="1464764574253" MODIFIED="1464764574253">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="MyComponent.h"/>
 </node>
-<node TEXT="" ID="ID_1940684917" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_1639974074" CREATED="1464764574253" MODIFIED="1464764574253">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="attribute1"/>
 </node>
-<node TEXT="" ID="ID_34185968" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_1949441153" CREATED="1464764574254" MODIFIED="1464764574254">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="attribute2"/>
 </node>
-<node TEXT="" ID="ID_1025492789" CREATED="1464104282070" MODIFIED="1464104282070">
+<node TEXT="" ID="ID_1361632914" CREATED="1464764574254" MODIFIED="1464764574254">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="ValueChangedEvent*"/>
 <attribute NAME="behaviorType" VALUE="componentEvent"/>
-<attribute NAME="value" VALUE="dynamic_platform-cpp-arduino-ide__MyComponent|event1"/>
+<attribute NAME="value" VALUE="event1"/>
 </node>
-<node TEXT="" ID="ID_1883307383" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_729454064" CREATED="1464764574255" MODIFIED="1464764574255">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="ValueChangedEvent*"/>
 <attribute NAME="behaviorType" VALUE="componentEvent"/>
-<attribute NAME="value" VALUE="dynamic_platform-cpp-arduino-ide__MyComponent|event2"/>
+<attribute NAME="value" VALUE="event2"/>
 </node>
-<node TEXT="" ID="ID_1074762299" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_184124271" CREATED="1464764574255" MODIFIED="1464764574255">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="attribute3"/>
 </node>
-<node TEXT="" ID="ID_140124711" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_440689860" CREATED="1464764574255" MODIFIED="1464764574255">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="ValueChangedEvent*"/>
+<attribute NAME="behaviorType" VALUE="componentEvent"/>
+<attribute NAME="value" VALUE="event3"/>
+</node>
+<node TEXT="" ID="ID_1393917661" CREATED="1464764574256" MODIFIED="1464764574256">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="attribute4"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="char"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="attributePtr"/>
 </node>
-<node TEXT="" ID="ID_1989182646" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="genericDescriptor"/>
-<attribute NAME="behaviorType" VALUE="componentEvent"/>
-<attribute NAME="value" VALUE="dynamic_platform-cpp-arduino-ide__MyComponent|event3"/>
-</node>
-<node TEXT="" ID="ID_1660981971" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="genericDescriptor"/>
-<attribute NAME="behaviorType" VALUE="componentEvent"/>
-<attribute NAME="value" VALUE="dynamic_platform-cpp-arduino-ide__MyComponent|event4"/>
+<node TEXT="" ID="ID_1747657323" CREATED="1464764574256" MODIFIED="1464764574256">
+<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="MyComponent"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="attributePtr2"/>
 </node>
 </node>
-<node TEXT="" ID="ID_439412066" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
-<attribute NAME="name" VALUE="MyComponent|event1"/>
-<node TEXT="" ID="ID_1551112285" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="containingCategory"/>
-<attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
-<attribute NAME="name" VALUE="category.event"/>
-</node>
-<node TEXT="" ID="ID_1220099489" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="genericDescriptor"/>
-<attribute NAME="behaviorType" VALUE="eventParameter"/>
-<attribute NAME="value" VALUE="ValueChangedEvent*"/>
-</node>
-</node>
-<node TEXT="" ID="ID_683595970" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
-<attribute NAME="name" VALUE="MyComponent|event2"/>
-<node TEXT="" ID="ID_501436050" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="containingCategory"/>
-<attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
-<attribute NAME="name" VALUE="category.event"/>
-</node>
-<node TEXT="" ID="ID_794582251" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="genericDescriptor"/>
-<attribute NAME="behaviorType" VALUE="eventParameter"/>
-<attribute NAME="value" VALUE="ValueChangedEvent*"/>
-</node>
-</node>
-<node TEXT="" ID="ID_1508030910" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
-<attribute NAME="name" VALUE="MyComponent|event3"/>
-<node TEXT="" ID="ID_1442332336" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="containingCategory"/>
-<attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
-<attribute NAME="name" VALUE="category.event"/>
-</node>
-<node TEXT="" ID="ID_1632657166" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="genericDescriptor"/>
-<attribute NAME="behaviorType" VALUE="eventParameter"/>
-<attribute NAME="value" VALUE="ValueChangedEvent*"/>
-</node>
-</node>
-<node TEXT="" ID="ID_1615771135" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
-<attribute NAME="name" VALUE="MyComponent|event4"/>
-<node TEXT="" ID="ID_83313957" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="containingCategory"/>
-<attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
-<attribute NAME="name" VALUE="category.event"/>
-</node>
-<node TEXT="" ID="ID_59270870" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="genericDescriptor"/>
-<attribute NAME="behaviorType" VALUE="eventParameter"/>
-<attribute NAME="value" VALUE="ValueChangedEvent*"/>
-</node>
-</node>
-<node TEXT="" ID="ID_1740139167" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_1013258803" CREATED="1464764574257" MODIFIED="1464764574257">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="Output"/>
-<node TEXT="" ID="ID_264779462" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_1768929581" CREATED="1464764574257" MODIFIED="1464764574257">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_38266189" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_876905154" CREATED="1464764574258" MODIFIED="1464764574258">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="Output.h"/>
 </node>
-<node TEXT="" ID="ID_307922897" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_1587526096" CREATED="1464764574258" MODIFIED="1464764574258">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="bool"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="contributesToState"/>
 </node>
-<node TEXT="" ID="ID_350519289" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_1737869296" CREATED="1464764574259" MODIFIED="1464764574259">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="uint8_t"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="pin"/>
 </node>
-<node TEXT="" ID="ID_1777991543" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_1985696005" CREATED="1464764574259" MODIFIED="1464764574259">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="uint8_t"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="initialValue"/>
 </node>
-<node TEXT="" ID="ID_681253888" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_1406144086" CREATED="1464764574259" MODIFIED="1464764574259">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="ValueChangedEvent*"/>
 <attribute NAME="behaviorType" VALUE="componentEvent"/>
-<attribute NAME="value" VALUE="dynamic_platform-cpp-arduino-ide__Output|onValueChanged"/>
+<attribute NAME="value" VALUE="onValueChanged"/>
 </node>
-<node TEXT="" ID="ID_96751706" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_1126720313" CREATED="1464764574260" MODIFIED="1464764574260">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="bool"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="isPwm"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1231155079" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
-<attribute NAME="name" VALUE="Output|onValueChanged"/>
-<node TEXT="" ID="ID_1331665216" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="containingCategory"/>
-<attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
-<attribute NAME="name" VALUE="category.event"/>
-</node>
-<node TEXT="" ID="ID_739373631" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="genericDescriptor"/>
-<attribute NAME="behaviorType" VALUE="eventParameter"/>
-<attribute NAME="value" VALUE="ValueChangedEvent*"/>
-</node>
-</node>
-<node TEXT="" ID="ID_127195408" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_1374918303" CREATED="1464764574260" MODIFIED="1464764574260">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="Timer"/>
-<node TEXT="" ID="ID_1379724112" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_600615032" CREATED="1464764574261" MODIFIED="1464764574261">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1220008564" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_1273601331" CREATED="1464764574261" MODIFIED="1464764574261">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="Timer.h"/>
 </node>
-<node TEXT="" ID="ID_1170535342" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_229189586" CREATED="1464764574262" MODIFIED="1464764574262">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="TimerEvent*"/>
 <attribute NAME="behaviorType" VALUE="componentEvent"/>
-<attribute NAME="value" VALUE="dynamic_platform-cpp-arduino-ide__Timer|onTimer"/>
+<attribute NAME="value" VALUE="onTimer"/>
 </node>
-<node TEXT="" ID="ID_1632692733" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_1715625259" CREATED="1464764574262" MODIFIED="1464764574262">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="TimerEvent*"/>
 <attribute NAME="behaviorType" VALUE="componentEvent"/>
-<attribute NAME="value" VALUE="dynamic_platform-cpp-arduino-ide__Timer|onTimerComplete"/>
+<attribute NAME="value" VALUE="onTimerComplete"/>
 </node>
-<node TEXT="" ID="ID_1465563375" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_618265486" CREATED="1464764574263" MODIFIED="1464764574263">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="currentCount"/>
 </node>
-<node TEXT="" ID="ID_1365904887" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_1585333349" CREATED="1464764574263" MODIFIED="1464764574263">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="long "/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="delay"/>
 </node>
-<node TEXT="" ID="ID_1112699154" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_405015559" CREATED="1464764574263" MODIFIED="1464764574263">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="repeatCount"/>
 </node>
-<node TEXT="" ID="ID_175729426" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_907266049" CREATED="1464764574264" MODIFIED="1464764574264">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="bool"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="autoStart"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1394153405" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
-<attribute NAME="name" VALUE="Timer|onTimer"/>
-<node TEXT="" ID="ID_1103327051" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="containingCategory"/>
-<attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
-<attribute NAME="name" VALUE="category.event"/>
-</node>
-<node TEXT="" ID="ID_593394953" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="genericDescriptor"/>
-<attribute NAME="behaviorType" VALUE="eventParameter"/>
-<attribute NAME="value" VALUE="TimerEvent*"/>
-</node>
-</node>
-<node TEXT="" ID="ID_583055378" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
-<attribute NAME="name" VALUE="Timer|onTimerComplete"/>
-<node TEXT="" ID="ID_1356687583" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="containingCategory"/>
-<attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
-<attribute NAME="name" VALUE="category.event"/>
-</node>
-<node TEXT="" ID="ID_1955549098" CREATED="1464104282080" MODIFIED="1464104282080">
-<attribute NAME="nodeType" VALUE="genericDescriptor"/>
-<attribute NAME="behaviorType" VALUE="eventParameter"/>
-<attribute NAME="value" VALUE="TimerEvent*"/>
-</node>
-</node>
-<node TEXT="" ID="ID_1512382147" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_465240092" CREATED="1464764574264" MODIFIED="1464764574264">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="TimerEvent"/>
-<node TEXT="" ID="ID_279756249" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_1299074461" CREATED="1464764574265" MODIFIED="1464764574265">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_160959155" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_703317793" CREATED="1464764574265" MODIFIED="1464764574265">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="Timer.h"/>
 </node>
-<node TEXT="" ID="ID_621246100" CREATED="1464104282080" MODIFIED="1464104282080">
+<node TEXT="" ID="ID_1059788750" CREATED="1464764574266" MODIFIED="1464764574266">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="Timer"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="timer"/>
 </node>
 </node>
-<node TEXT="" ID="ID_706974696" CREATED="1464104282090" MODIFIED="1464104282090">
+<node TEXT="" ID="ID_1739924002" CREATED="1464764574266" MODIFIED="1464764574266">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="WiFi101NetworkAdapter"/>
-<node TEXT="" ID="ID_1467957184" CREATED="1464104282090" MODIFIED="1464104282090">
+<node TEXT="" ID="ID_942027174" CREATED="1464764574266" MODIFIED="1464764574266">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1487936893" CREATED="1464104282090" MODIFIED="1464104282090">
+<node TEXT="" ID="ID_350504334" CREATED="1464764574267" MODIFIED="1464764574267">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="WiFi101NetworkAdapter.h"/>
 </node>
+<node TEXT="" ID="ID_883076656" CREATED="1464764574267" MODIFIED="1464764574267">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="behaviorType" VALUE="superClass"/>
+<attribute NAME="value" VALUE="IWiFiNetworkAdapter"/>
 </node>
-<node TEXT="" ID="ID_1458571146" CREATED="1464104282090" MODIFIED="1464104282090">
+</node>
+<node TEXT="" ID="ID_671477314" CREATED="1464764574268" MODIFIED="1464764574268">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="WiFiNetworkAdapter"/>
-<node TEXT="" ID="ID_1806048320" CREATED="1464104282090" MODIFIED="1464104282090">
+<node TEXT="" ID="ID_589938354" CREATED="1464764574268" MODIFIED="1464764574268">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_54834815" CREATED="1464104282090" MODIFIED="1464104282090">
+<node TEXT="" ID="ID_996493576" CREATED="1464764574269" MODIFIED="1464764574269">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="WiFiNetworkAdapter.h"/>
+</node>
+<node TEXT="" ID="ID_1320543482" CREATED="1464764574269" MODIFIED="1464764574269">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="behaviorType" VALUE="superClass"/>
+<attribute NAME="value" VALUE="IWiFiNetworkAdapter"/>
+</node>
+</node>
+<node TEXT="" ID="ID_172866856" CREATED="1464764574270" MODIFIED="1464764574270">
+<attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
+<attribute NAME="name" VALUE="MyComponent2"/>
+<node TEXT="" ID="ID_665235352" CREATED="1464764574270" MODIFIED="1464764574270">
+<attribute NAME="nodeType" VALUE="containingCategory"/>
+<attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="category.component"/>
+</node>
+<node TEXT="" ID="ID_288837552" CREATED="1464764574270" MODIFIED="1464764574270">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="behaviorType" VALUE="import"/>
+<attribute NAME="value" VALUE="MyComponent2.h"/>
+</node>
+<node TEXT="" ID="ID_1493022423" CREATED="1464764574271" MODIFIED="1464764574271">
+<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="name" VALUE="attribute1_2"/>
+</node>
+<node TEXT="" ID="ID_476584506" CREATED="1464764574271" MODIFIED="1464764574271">
+<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="name" VALUE="attribute2_2"/>
+</node>
+<node TEXT="" ID="ID_316320636" CREATED="1464764574272" MODIFIED="1464764574272">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="ValueChangedEvent*"/>
+<attribute NAME="behaviorType" VALUE="componentEvent"/>
+<attribute NAME="value" VALUE="event1_2"/>
+</node>
+<node TEXT="" ID="ID_1710942059" CREATED="1464764574272" MODIFIED="1464764574272">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="ValueChangedEvent*"/>
+<attribute NAME="behaviorType" VALUE="componentEvent"/>
+<attribute NAME="value" VALUE="event2_2"/>
+</node>
+<node TEXT="" ID="ID_408750155" CREATED="1464764574273" MODIFIED="1464764574273">
+<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="name" VALUE="attribute3_2"/>
+</node>
+<node TEXT="" ID="ID_286040046" CREATED="1464764574273" MODIFIED="1464764574273">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="ValueChangedEvent*"/>
+<attribute NAME="behaviorType" VALUE="componentEvent"/>
+<attribute NAME="value" VALUE="event3_2"/>
+</node>
+<node TEXT="" ID="ID_344850709" CREATED="1464764574273" MODIFIED="1464764574273">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="behaviorType" VALUE="superClass"/>
+<attribute NAME="value" VALUE="MyComponent"/>
+</node>
+</node>
+<node TEXT="" ID="ID_509226972" CREATED="1464764574274" MODIFIED="1464764574274">
+<attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
+<attribute NAME="name" VALUE="MyComponent3"/>
+<node TEXT="" ID="ID_1453846862" CREATED="1464764574274" MODIFIED="1464764574274">
+<attribute NAME="nodeType" VALUE="containingCategory"/>
+<attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="category.component"/>
+</node>
+<node TEXT="" ID="ID_1240964469" CREATED="1464764574275" MODIFIED="1464764574275">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="behaviorType" VALUE="import"/>
+<attribute NAME="value" VALUE="MyComponent3.h"/>
+</node>
+<node TEXT="" ID="ID_1818603915" CREATED="1464764574276" MODIFIED="1464764574276">
+<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="name" VALUE="attribute1_3"/>
+</node>
+<node TEXT="" ID="ID_1929123019" CREATED="1464764574277" MODIFIED="1464764574277">
+<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="name" VALUE="attribute2_3"/>
+</node>
+<node TEXT="" ID="ID_1054555263" CREATED="1464764574277" MODIFIED="1464764574277">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="ValueChangedEvent*"/>
+<attribute NAME="behaviorType" VALUE="componentEvent"/>
+<attribute NAME="value" VALUE="event2_3"/>
+</node>
+<node TEXT="" ID="ID_1814646629" CREATED="1464764574278" MODIFIED="1464764574278">
+<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="name" VALUE="attribute3_3"/>
+</node>
+<node TEXT="" ID="ID_1382313123" CREATED="1464764574278" MODIFIED="1464764574278">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="ValueChangedEvent*"/>
+<attribute NAME="behaviorType" VALUE="componentEvent"/>
+<attribute NAME="value" VALUE="event3_3"/>
+</node>
+<node TEXT="" ID="ID_368432340" CREATED="1464764574278" MODIFIED="1464764574278">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="behaviorType" VALUE="superClass"/>
+<attribute NAME="value" VALUE="Input"/>
+</node>
+<node TEXT="" ID="ID_1032771552" CREATED="1464764574279" MODIFIED="1464764574279">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="behaviorType" VALUE="superClass"/>
+<attribute NAME="value" VALUE="MyComponent2"/>
+</node>
+<node TEXT="" ID="ID_1622455485" CREATED="1464764574279" MODIFIED="1464764574279">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="behaviorType" VALUE="superClass"/>
+<attribute NAME="value" VALUE="MyComponent"/>
+</node>
+<node TEXT="" ID="ID_1989897814" CREATED="1464764574279" MODIFIED="1464764574279">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="OtherEventType*"/>
+<attribute NAME="behaviorType" VALUE="componentEvent"/>
+<attribute NAME="value" VALUE="event1_3"/>
 </node>
 </node>
 </node>
 <node TEXT="" POSITION="right" ID="ID_1173621749" CREATED="1464104241895" MODIFIED="1464104241895">
 <attribute NAME="nodeType" VALUE="srcDir"/>
 <attribute NAME="technologies" VALUE="cpp"/>
-<attribute NAME="name" VALUE="lib-src"/>
-<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="lib-src-link"/>
+<attribute NAME="sync" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="acceptedFiles.original" VALUE="java.util.HashSet|[MyComponent.h, EthernetNetworkAdapter.h, Output.h, MyComponent3.h, DHTSensor.h, MyComponent2.h, Timer.h, HttpServer.h, WiFi101NetworkAdapter.h, Input.h, ESP8266NetworkAdapter.h, ESP8266NativeNetworkAdapter.h, WiFiNetworkAdapter.h]"/>
 <node TEXT="" ID="ID_1287550333" CREATED="1464104241895" MODIFIED="1464104241895">
 <attribute NAME="nodeType" VALUE="cppFile"/>
 <attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
@@ -873,6 +848,16 @@
 <attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
 </node>
+<node TEXT="" ID="ID_1853776616" CREATED="1464164202568" MODIFIED="1464164202568">
+<attribute NAME="nodeType" VALUE="cppBaseSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="IWiFiNetworkAdapter"/>
+<attribute NAME="visibility" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
 </node>
 </node>
 <node TEXT="" ID="ID_1518320933" CREATED="1464104241935" MODIFIED="1464104241935">
@@ -1048,6 +1033,7 @@
 <attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="comment" VALUE="/*&#xd;&#xa; * @fp.ignore&#xd;&#xa; */"/>
 <node TEXT="" ID="ID_30340701" CREATED="1464104241965" MODIFIED="1464104241965">
 <attribute NAME="nodeType" VALUE="cppCompositeTypeSpecifier"/>
 <attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
@@ -2486,6 +2472,16 @@
 <attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
 </node>
+<node TEXT="" ID="ID_1718929014" CREATED="1464164202810" MODIFIED="1464164202810">
+<attribute NAME="nodeType" VALUE="cppBaseSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="IWiFiNetworkAdapter"/>
+<attribute NAME="visibility" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
 </node>
 </node>
 <node TEXT="" ID="ID_41923344" CREATED="1464104243065" MODIFIED="1464104243065">
@@ -2495,6 +2491,7 @@
 <attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="comment" VALUE="/*&#xd;&#xa; * @fp.ignore&#xd;&#xa; */"/>
 <node TEXT="" ID="ID_1303699928" CREATED="1464104243065" MODIFIED="1464104243065">
 <attribute NAME="nodeType" VALUE="cppCompositeTypeSpecifier"/>
 <attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
@@ -3916,6 +3913,16 @@
 <attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
+</node>
+<node TEXT="" ID="ID_846891562" CREATED="1464164202926" MODIFIED="1464164202926">
+<attribute NAME="nodeType" VALUE="cppBaseSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="Client"/>
+<attribute NAME="visibility" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
 </node>
 </node>
@@ -5707,6 +5714,16 @@
 <attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
 </node>
+<node TEXT="" ID="ID_153400920" CREATED="1464164203077" MODIFIED="1464164203077">
+<attribute NAME="nodeType" VALUE="cppBaseSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="INetworkAdapter"/>
+<attribute NAME="visibility" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
 </node>
 </node>
 <node TEXT="" ID="ID_11529415" CREATED="1464104245388" MODIFIED="1464104245388">
@@ -7020,6 +7037,16 @@
 <attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
 </node>
+<node TEXT="" ID="ID_1885469516" CREATED="1464164203178" MODIFIED="1464164203178">
+<attribute NAME="nodeType" VALUE="cppBaseSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="IProtocolHandler"/>
+<attribute NAME="visibility" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
 </node>
 </node>
 <node TEXT="" ID="ID_229618353" CREATED="1464104246218" MODIFIED="1464104246218">
@@ -7198,6 +7225,16 @@
 <attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
+</node>
+<node TEXT="" ID="ID_570645222" CREATED="1464164203193" MODIFIED="1464164203193">
+<attribute NAME="nodeType" VALUE="cppBaseSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="Event"/>
+<attribute NAME="visibility" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
 </node>
 </node>
@@ -9587,6 +9624,7 @@
 <attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="comment" VALUE="/*&#xd;&#xa;&#x9; * @fp.ignore&#xd;&#xa;&#x9; */"/>
 <node TEXT="" ID="ID_1810082664" CREATED="1464104275762" MODIFIED="1464104275762">
 <attribute NAME="nodeType" VALUE="cppDeclarator"/>
 <attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
@@ -9741,6 +9779,7 @@
 <attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="comment" VALUE="/*&#xd;&#xa;&#x9; * @fp.ignore&#xd;&#xa;&#x9; */"/>
 <node TEXT="" ID="ID_982574555" CREATED="1464104277966" MODIFIED="1464104277966">
 <attribute NAME="nodeType" VALUE="cppFunctionDeclarator"/>
 <attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
@@ -9846,6 +9885,209 @@
 <attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
 </node>
+<node TEXT="" ID="ID_1973005627" CREATED="1464259145602" MODIFIED="1464259145602">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclaration"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="staticAttribute"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_953800140" CREATED="1464259145602" MODIFIED="1464259145602">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="staticAttribute"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+<node TEXT="" ID="ID_1833604019" CREATED="1464259145602" MODIFIED="1464259145602">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="3" OBJECT="java.lang.Integer|3"/>
+<attribute NAME="storageClass" VALUE="3" OBJECT="java.lang.Integer|3"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="specifierType" VALUE="3" OBJECT="java.lang.Integer|3"/>
+<attribute NAME="isSigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isUnsigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isShort" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLongLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isComplex" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isImaginary" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_791128704" CREATED="1464259145622" MODIFIED="1464259145622">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclaration"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="staticAttribute2"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1318025161" CREATED="1464259145622" MODIFIED="1464259145622">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="staticAttribute2"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+<node TEXT="" ID="ID_244320758" CREATED="1464259145622" MODIFIED="1464259145622">
+<attribute NAME="nodeType" VALUE="cppNamedTypeSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="MyComponent"/>
+<attribute NAME="storageClass" VALUE="3" OBJECT="java.lang.Integer|3"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1637442724" CREATED="1464263428725" MODIFIED="1464263428725">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclaration"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="attributePtr"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_971054245" CREATED="1464263428725" MODIFIED="1464263428725">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="attributePtr"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1103258046" CREATED="1464263428725" MODIFIED="1464263428725">
+<attribute NAME="nodeType" VALUE="cppPointer"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="*"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1439096376" CREATED="1464263523141" MODIFIED="1464263523141">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="2" OBJECT="java.lang.Integer|2"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="specifierType" VALUE="2" OBJECT="java.lang.Integer|2"/>
+<attribute NAME="isSigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isUnsigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isShort" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLongLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isComplex" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isImaginary" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_581796303" CREATED="1464263428735" MODIFIED="1464263428735">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclaration"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="attributePtr2"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1790043271" CREATED="1464263428735" MODIFIED="1464263428735">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="attributePtr2"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1987485689" CREATED="1464263429065" MODIFIED="1464263429065">
+<attribute NAME="nodeType" VALUE="cppPointer"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="*"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_589542669" CREATED="1464263429065" MODIFIED="1464263429065">
+<attribute NAME="nodeType" VALUE="cppNamedTypeSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="MyComponent"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_18288155" CREATED="1464164296848" MODIFIED="1464164296848">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclaration"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="ShouldntAppear"/>
+<attribute NAME="comment" VALUE="/*&#xd;&#xa; * @fp.ignore&#xd;&#xa; */"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_96952753" CREATED="1464164296848" MODIFIED="1464164296848">
+<attribute NAME="nodeType" VALUE="cppCompositeTypeSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="ShouldntAppear"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="specifierKey" VALUE="3" OBJECT="java.lang.Integer|3"/>
+<attribute NAME="isFinal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
 </node>
 </node>
@@ -12492,6 +12734,16 @@
 <attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
 </node>
+<node TEXT="" ID="ID_15961043" CREATED="1464164203558" MODIFIED="1464164203558">
+<attribute NAME="nodeType" VALUE="cppBaseSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="IWiFiNetworkAdapter"/>
+<attribute NAME="visibility" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
 </node>
 </node>
 <node TEXT="" ID="ID_1969201936" CREATED="1464104280689" MODIFIED="1464104280689">
@@ -12810,6 +13062,16 @@
 <attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
 </node>
+<node TEXT="" ID="ID_1307145449" CREATED="1464164203582" MODIFIED="1464164203582">
+<attribute NAME="nodeType" VALUE="cppBaseSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="IWiFiNetworkAdapter"/>
+<attribute NAME="visibility" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
 </node>
 </node>
 <node TEXT="" ID="ID_1407468475" CREATED="1464104280909" MODIFIED="1464104280909">
@@ -12945,6 +13207,1058 @@
 <attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_649580902" CREATED="1464171580326" MODIFIED="1464171580326">
+<attribute NAME="nodeType" VALUE="cppFile"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="MyComponent2.h"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1390237592" CREATED="1464171580332" MODIFIED="1464171580332">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclaration"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="MyComponent2"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1853639559" CREATED="1464171580334" MODIFIED="1464171580334">
+<attribute NAME="nodeType" VALUE="cppCompositeTypeSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="MyComponent2"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="specifierKey" VALUE="3" OBJECT="java.lang.Integer|3"/>
+<attribute NAME="isFinal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1160478303" CREATED="1464171580339" MODIFIED="1464171580339">
+<attribute NAME="nodeType" VALUE="cppVisibilityLabel"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+<node TEXT="" ID="ID_1574387320" CREATED="1464171580341" MODIFIED="1464171580341">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclaration"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="attribute1_2"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_926374460" CREATED="1464171580342" MODIFIED="1464171580342">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="attribute1_2"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+<node TEXT="" ID="ID_847617206" CREATED="1464171580345" MODIFIED="1464171580345">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="3" OBJECT="java.lang.Integer|3"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="specifierType" VALUE="3" OBJECT="java.lang.Integer|3"/>
+<attribute NAME="isSigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isUnsigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isShort" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLongLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isComplex" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isImaginary" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1119300516" CREATED="1464171580352" MODIFIED="1464171580352">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclaration"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="attribute2_2"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1504383098" CREATED="1464171580353" MODIFIED="1464171580353">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="attribute2_2"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+<node TEXT="" ID="ID_390203818" CREATED="1464171580354" MODIFIED="1464171580354">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="3" OBJECT="java.lang.Integer|3"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="specifierType" VALUE="3" OBJECT="java.lang.Integer|3"/>
+<attribute NAME="isSigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isUnsigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isShort" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLongLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isComplex" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isImaginary" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_554892253" CREATED="1464171580360" MODIFIED="1464171580360">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclaration"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="(event1_2)(ValueChangedEvent,)"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_72546157" CREATED="1464171580361" MODIFIED="1464171580361">
+<attribute NAME="nodeType" VALUE="cppFunctionDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE=""/>
+<attribute NAME="initializer" VALUE="=NULL"/>
+<attribute NAME="takesVarArgs" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isMutable" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isPureVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isOverride" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFinal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1885895454" CREATED="1464171580364" MODIFIED="1464171580364">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="event1_2"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1658393830" CREATED="1464171580365" MODIFIED="1464171580365">
+<attribute NAME="nodeType" VALUE="cppPointer"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="*"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_713317244" CREATED="1464171580367" MODIFIED="1464171580367">
+<attribute NAME="nodeType" VALUE="cppParameter"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="__parameter0"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_380211408" CREATED="1464171580368" MODIFIED="1464171580368">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE=""/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_142193414" CREATED="1464171580368" MODIFIED="1464171580368">
+<attribute NAME="nodeType" VALUE="cppPointer"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="*"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_176488726" CREATED="1464171580515" MODIFIED="1464171580515">
+<attribute NAME="nodeType" VALUE="cppNamedTypeSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="ValueChangedEvent"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_1053580542" CREATED="1464171580520" MODIFIED="1464171580520">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="specifierType" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="isSigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isUnsigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isShort" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLongLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isComplex" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isImaginary" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1736630212" CREATED="1464171580530" MODIFIED="1464171580530">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclaration"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="(event2_2)(ValueChangedEvent,)"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_15981187" CREATED="1464171580531" MODIFIED="1464171580531">
+<attribute NAME="nodeType" VALUE="cppFunctionDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE=""/>
+<attribute NAME="initializer" VALUE="=NULL"/>
+<attribute NAME="takesVarArgs" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isMutable" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isPureVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isOverride" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFinal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1799308322" CREATED="1464171580535" MODIFIED="1464171580535">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="event2_2"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1909325900" CREATED="1464171580536" MODIFIED="1464171580536">
+<attribute NAME="nodeType" VALUE="cppPointer"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="*"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1677521476" CREATED="1464171580538" MODIFIED="1464171580538">
+<attribute NAME="nodeType" VALUE="cppParameter"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="__parameter0"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1134540920" CREATED="1464171580539" MODIFIED="1464171580539">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE=""/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1691299556" CREATED="1464171580539" MODIFIED="1464171580539">
+<attribute NAME="nodeType" VALUE="cppPointer"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="*"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_886340219" CREATED="1464171580541" MODIFIED="1464171580541">
+<attribute NAME="nodeType" VALUE="cppNamedTypeSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="ValueChangedEvent"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_1670271515" CREATED="1464171580546" MODIFIED="1464171580546">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="specifierType" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="isSigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isUnsigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isShort" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLongLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isComplex" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isImaginary" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_809745245" CREATED="1464171580552" MODIFIED="1464171580552">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclaration"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="attribute3_2"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_148439308" CREATED="1464171580553" MODIFIED="1464171580553">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="attribute3_2"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+<node TEXT="" ID="ID_1154254245" CREATED="1464171580554" MODIFIED="1464171580554">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="3" OBJECT="java.lang.Integer|3"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="specifierType" VALUE="3" OBJECT="java.lang.Integer|3"/>
+<attribute NAME="isSigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isUnsigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isShort" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLongLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isComplex" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isImaginary" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1169927506" CREATED="1464171580560" MODIFIED="1464171580560">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclaration"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="(event3_2)(ValueChangedEvent,)"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_637790816" CREATED="1464171580561" MODIFIED="1464171580561">
+<attribute NAME="nodeType" VALUE="cppFunctionDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE=""/>
+<attribute NAME="initializer" VALUE="=NULL"/>
+<attribute NAME="takesVarArgs" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isMutable" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isPureVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isOverride" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFinal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_313794707" CREATED="1464171580564" MODIFIED="1464171580564">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="event3_2"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_382311381" CREATED="1464171580565" MODIFIED="1464171580565">
+<attribute NAME="nodeType" VALUE="cppPointer"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="*"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_215964468" CREATED="1464171580567" MODIFIED="1464171580567">
+<attribute NAME="nodeType" VALUE="cppParameter"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="__parameter0"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_439553754" CREATED="1464171580568" MODIFIED="1464171580568">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE=""/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_492220188" CREATED="1464171580569" MODIFIED="1464171580569">
+<attribute NAME="nodeType" VALUE="cppPointer"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="*"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_864020475" CREATED="1464171580571" MODIFIED="1464171580571">
+<attribute NAME="nodeType" VALUE="cppNamedTypeSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="ValueChangedEvent"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_1254506158" CREATED="1464171580577" MODIFIED="1464171580577">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="specifierType" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="isSigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isUnsigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isShort" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLongLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isComplex" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isImaginary" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1566004575" CREATED="1464171580753" MODIFIED="1464171580753">
+<attribute NAME="nodeType" VALUE="cppBaseSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="MyComponent"/>
+<attribute NAME="visibility" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_1480134848" CREATED="1464171580756" MODIFIED="1464171580756">
+<attribute NAME="nodeType" VALUE="cppFile"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="MyComponent3.h"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1346303446" CREATED="1464171580761" MODIFIED="1464171580761">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclaration"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="MyComponent3"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_269829146" CREATED="1464171580763" MODIFIED="1464171580763">
+<attribute NAME="nodeType" VALUE="cppCompositeTypeSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="MyComponent3"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="specifierKey" VALUE="3" OBJECT="java.lang.Integer|3"/>
+<attribute NAME="isFinal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_784685460" CREATED="1464171580767" MODIFIED="1464171580767">
+<attribute NAME="nodeType" VALUE="cppVisibilityLabel"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+<node TEXT="" ID="ID_522207736" CREATED="1464171580768" MODIFIED="1464171580768">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclaration"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="attribute1_3"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1500445562" CREATED="1464171580769" MODIFIED="1464171580769">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="attribute1_3"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+<node TEXT="" ID="ID_1772589662" CREATED="1464171580771" MODIFIED="1464171580771">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="3" OBJECT="java.lang.Integer|3"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="specifierType" VALUE="3" OBJECT="java.lang.Integer|3"/>
+<attribute NAME="isSigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isUnsigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isShort" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLongLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isComplex" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isImaginary" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_923590957" CREATED="1464171580777" MODIFIED="1464171580777">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclaration"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="attribute2_3"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_401333239" CREATED="1464171580778" MODIFIED="1464171580778">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="attribute2_3"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+<node TEXT="" ID="ID_697207520" CREATED="1464171580779" MODIFIED="1464171580779">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="3" OBJECT="java.lang.Integer|3"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="specifierType" VALUE="3" OBJECT="java.lang.Integer|3"/>
+<attribute NAME="isSigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isUnsigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isShort" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLongLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isComplex" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isImaginary" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_153394721" CREATED="1464171580807" MODIFIED="1464171580807">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclaration"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="(event2_3)(ValueChangedEvent,)"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1279258513" CREATED="1464171580808" MODIFIED="1464171580808">
+<attribute NAME="nodeType" VALUE="cppFunctionDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE=""/>
+<attribute NAME="initializer" VALUE="=NULL"/>
+<attribute NAME="takesVarArgs" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isMutable" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isPureVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isOverride" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFinal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1518253189" CREATED="1464171580811" MODIFIED="1464171580811">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="event2_3"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_120608428" CREATED="1464171580812" MODIFIED="1464171580812">
+<attribute NAME="nodeType" VALUE="cppPointer"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="*"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1948119308" CREATED="1464171580814" MODIFIED="1464171580814">
+<attribute NAME="nodeType" VALUE="cppParameter"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="__parameter0"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_21302187" CREATED="1464171580814" MODIFIED="1464171580814">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE=""/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1442926134" CREATED="1464171580815" MODIFIED="1464171580815">
+<attribute NAME="nodeType" VALUE="cppPointer"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="*"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1223395998" CREATED="1464171580817" MODIFIED="1464171580817">
+<attribute NAME="nodeType" VALUE="cppNamedTypeSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="ValueChangedEvent"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_1711460098" CREATED="1464171581070" MODIFIED="1464171581070">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="specifierType" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="isSigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isUnsigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isShort" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLongLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isComplex" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isImaginary" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_790109338" CREATED="1464171581078" MODIFIED="1464171581078">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclaration"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="attribute3_3"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1808701194" CREATED="1464171581079" MODIFIED="1464171581079">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="attribute3_3"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+<node TEXT="" ID="ID_1166750232" CREATED="1464171581081" MODIFIED="1464171581081">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="3" OBJECT="java.lang.Integer|3"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="specifierType" VALUE="3" OBJECT="java.lang.Integer|3"/>
+<attribute NAME="isSigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isUnsigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isShort" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLongLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isComplex" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isImaginary" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_929756071" CREATED="1464171581088" MODIFIED="1464171581088">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclaration"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="(event3_3)(ValueChangedEvent,)"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1211171055" CREATED="1464171581089" MODIFIED="1464171581089">
+<attribute NAME="nodeType" VALUE="cppFunctionDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE=""/>
+<attribute NAME="initializer" VALUE="=NULL"/>
+<attribute NAME="takesVarArgs" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isMutable" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isPureVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isOverride" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFinal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1137546902" CREATED="1464171581091" MODIFIED="1464171581091">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="event3_3"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1213927245" CREATED="1464171581092" MODIFIED="1464171581092">
+<attribute NAME="nodeType" VALUE="cppPointer"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="*"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1467546023" CREATED="1464171581094" MODIFIED="1464171581094">
+<attribute NAME="nodeType" VALUE="cppParameter"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="__parameter0"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_9309626" CREATED="1464171581095" MODIFIED="1464171581095">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE=""/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_675102523" CREATED="1464171581096" MODIFIED="1464171581096">
+<attribute NAME="nodeType" VALUE="cppPointer"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="*"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1286233034" CREATED="1464171581098" MODIFIED="1464171581098">
+<attribute NAME="nodeType" VALUE="cppNamedTypeSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="ValueChangedEvent"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_521595980" CREATED="1464171581103" MODIFIED="1464171581103">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="specifierType" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="isSigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isUnsigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isShort" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLongLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isComplex" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isImaginary" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1174132496" CREATED="1464171581109" MODIFIED="1464171581109">
+<attribute NAME="nodeType" VALUE="cppBaseSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="Input"/>
+<attribute NAME="visibility" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+<node TEXT="" ID="ID_354993589" CREATED="1464175783626" MODIFIED="1464175783626">
+<attribute NAME="nodeType" VALUE="cppBaseSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="MyComponent2"/>
+<attribute NAME="visibility" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+<node TEXT="" ID="ID_423241446" CREATED="1464175783629" MODIFIED="1464175783629">
+<attribute NAME="nodeType" VALUE="cppBaseSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="MyComponent"/>
+<attribute NAME="visibility" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+<node TEXT="" ID="ID_255070323" CREATED="1464764572953" MODIFIED="1464764572953">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclaration"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="(event1_3)(OtherEventType,)"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1046338040" CREATED="1464764572955" MODIFIED="1464764572955">
+<attribute NAME="nodeType" VALUE="cppFunctionDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE=""/>
+<attribute NAME="initializer" VALUE="=NULL"/>
+<attribute NAME="takesVarArgs" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isMutable" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isPureVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isOverride" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFinal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_1663493362" CREATED="1464764572958" MODIFIED="1464764572958">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="event1_3"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_317847316" CREATED="1464764572959" MODIFIED="1464764572959">
+<attribute NAME="nodeType" VALUE="cppPointer"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="*"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1658019355" CREATED="1464764572962" MODIFIED="1464764572962">
+<attribute NAME="nodeType" VALUE="cppParameter"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="__parameter0"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_721139110" CREATED="1464764572963" MODIFIED="1464764572963">
+<attribute NAME="nodeType" VALUE="cppDeclarator"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE=""/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<node TEXT="" ID="ID_640645068" CREATED="1464764572964" MODIFIED="1464764572964">
+<attribute NAME="nodeType" VALUE="cppPointer"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="*"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1570503235" CREATED="1464764572966" MODIFIED="1464764572966">
+<attribute NAME="nodeType" VALUE="cppNamedTypeSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="OtherEventType"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_86806623" CREATED="1464764572971" MODIFIED="1464764572971">
+<attribute NAME="nodeType" VALUE="cppSimpleDeclSpecifier"/>
+<attribute NAME="syncInProgress" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="storageClass" VALUE="0" OBJECT="java.lang.Integer|0"/>
+<attribute NAME="isConst" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVolatile" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isRestrict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isInline" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isFriend" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isVirtual" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isExplicit" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isConstexpr" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isThreadLocal" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="specifierType" VALUE="1" OBJECT="java.lang.Integer|1"/>
+<attribute NAME="isSigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isUnsigned" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isShort" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isLongLong" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isComplex" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="isImaginary" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="sync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="childrenConflict" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="childrenSync" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
