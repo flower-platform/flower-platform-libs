@@ -14,7 +14,7 @@ PROPERTIES_END
 					commandParameters =  command.parameters.split(';');
 					$scope.commands[i].parameters= [];
 					angular.forEach(commandParameters, function(value, key) {
-							this.push({"type": value.split(':')[0].trim(), "name": value.split(':')[1].trim(), value: ""});
+							this.push({"type": value.split(':')[1].trim(), "name": value.split(':')[0].trim(), value: ""});
 					}, $scope.commands[i].parameters);
 				}
 				$scope.commands[i].name = command.command;
@@ -48,7 +48,7 @@ PROPERTIES_END
 									<div class="form-group" ng-if="parameter.type != 'boolean'">
 										<label for="{{parameter.name}}" class="col-md-3 control-label">{{parameter.name}}</label>
 										<div class="col-md-6">
-											<input ng-model="command.parameters[$index].value" type="text" class="form-control" id="{{parameter.name}}" placeholder="Enter {{parameter.name}} value" />
+											<input ng-model="command.parameters[$index].value" type="text" class="form-control" id="{{parameter.name}}" placeholder="Enter value of {{parameter.name}}" />
 										</div>
 									</div>
 									<div ng-if="parameter.type == 'boolean'" class="form-group">
