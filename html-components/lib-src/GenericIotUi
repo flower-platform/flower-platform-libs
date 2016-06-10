@@ -46,29 +46,29 @@ PROPERTIES_END
 							<form class="form-horizontal" role="form">
 								<div ng-repeat="parameter in command.parameters track by $index">
 									<div class="form-group" ng-if="parameter.type != 'boolean'">
-										<label for="{{parameter.name}}" class="col-md-3 control-label">{{parameter.name}}</label>
-										<div class="col-md-6">
+										<label for="{{parameter.name}}" class="col-md-3 col-sm-2 col-xs-2 control-label">{{parameter.name}}</label>
+										<div class="col-md-6 col-sm-6 col-xs-6">
 											<input ng-model="command.parameters[$index].value" type="text" class="form-control" id="{{parameter.name}}" placeholder="Enter value of {{parameter.name}}" />
 										</div>
 									</div>
 									<div ng-if="parameter.type == 'boolean'" class="form-group">
-										<div class="col-md-offset-1 col-md-10">
-											<div class="checkbox">
-												<label> <input ng-model="command.parameters[$index].value" type="checkbox">{{parameter.name}}</label>
-												</label>
-											</div>
+										<label class="col-md-3 col-sm-2 col-xs-2 control-label">{{parameter.name}}</label>
+										<div class="col-md-6 col-sm-6 col-xs-6">
+											 <input ng-model="command.parameters[$index].value" type="checkbox" style="float: left; padding-top: 2% " >
 										</div>
 									</div>
 								</div>
 								<div class="form-group">
-									<div class="col-md-offset-1 col-md-10" style="padding-bottom:  3%">
+									<div style="width:89%; padding-left: 11%; padding-bottom:3%">
 										<button class="btn btn-block btn-lg" type="button" ng-click="invoke(command)">{{command.label}}</button>
 									</div>
 								</div>
 							</form>
 						</div>
-						<div ng-if="!command.parameters" class="col-md-offset-1 col-md-10" style="padding-bottom:  3%">
+						<div class="form-group">
+						<div ng-if="!command.parameters"  style="width:91%; padding-left: 9%; padding-bottom:3%">
 							<button class="btn btn-block btn-lg" type="button" ng-click="invoke(command)">{{command.label}}</button>
+						</div>
 						</div>
 					</div>
 				</div>
