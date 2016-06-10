@@ -3,10 +3,23 @@ component.belongsToChildrenCategories = htmlComponent
 PROPERTIES_END
 <script>
 	var ui = angular.module("ui");
-	ui.controller("GenericComponentCtrl", ['$scope', '$http', '$interval', '$location', function($scope, $http, $interval, $location) {
-		descriptorsUrl = "getDescriptors"		
+	ui.controller("GenericComponentCtrl", ['$scope', '$http', '$interval', '$location', function($scope, $http, $interval, $location) {		
+		$scope.commands = [];
 		$http.get($scope.getBoardUrl("getDescriptors")).success(function(response) {
 			$scope.descriptors = response;
+			for (var i = 0; i < $scope.descriptors.commands.length; i++) {
+				$scope.commands[i]= {};
+				command = $scope.descriptors.commands[i];
+				if (command.parameters) {
+					commandParameters =  command.parameters.split(';');
+					$scope.commands[i].parameters= [];
+					angular.forEach(commandParameters, function(value, key) {
+							this.push({"type": value.split(':')[0].trim(), "name": value.split(':')[1].trim(), value: ""});
+					}, $scope.commands[i].parameters);
+				}
+				$scope.commands[i].name = command.command;
+				$scope.commands[i].label = command.label;
+			}
 		})
 	}]);
 </script>
@@ -28,9 +41,36 @@ PROPERTIES_END
 			<div class="panel panel-primary text-center">
 				<div class="panel-heading">Commands</div>
 				<div class="panel-body">
-					<button ng-repeat="command in descriptors.commands" class="btn btn-block btn-lg" type="button" ng-click="invoke(command.command)">
-						{{command.label}}
-					</button>
+					<div ng-repeat="command in commands">
+						<div ng-if="command.parameters" class="panel panel-default">
+							<form class="form-horizontal" role="form">
+								<div ng-repeat="parameter in command.parameters track by $index">
+									<div class="form-group" ng-if="parameter.type != 'boolean'">
+										<label for="{{parameter.name}}" class="col-md-3 control-label">{{parameter.name}}</label>
+										<div class="col-md-6">
+											<input ng-model="command.parameters[$index].value" type="text" class="form-control" id="{{parameter.name}}" placeholder="Enter {{parameter.name}} value" />
+										</div>
+									</div>
+									<div ng-if="parameter.type == 'boolean'" class="form-group">
+										<div class="col-md-offset-1 col-md-10">
+											<div class="checkbox">
+												<label> <input ng-model="command.parameters[$index].value" type="checkbox">{{parameter.name}}</label>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-md-offset-1 col-md-10" style="padding-bottom:  3%">
+										<button class="btn btn-block btn-lg" type="button" ng-click="invoke(command)">{{command.label}}</button>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div ng-if="!command.parameters" class="col-md-offset-1 col-md-10" style="padding-bottom:  3%">
+							<button class="btn btn-block btn-lg" type="button" ng-click="invoke(command)">{{command.label}}</button>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
