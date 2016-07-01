@@ -96,8 +96,8 @@ PROPERTIES_END
 			<div class="panel panel-primary text-center">
 				<div class="panel-heading">Status</div>
 				<div class="panel-body">
-					<div ng-repeat="input in descriptors.inputs">
-						<span> Value of {{input.label}} is {{status[input.property]}}</span>
+					<div ng-repeat="status in statusAsArray">
+						<span> {{status.label}} is {{status.value}}</span>
 					</div>
 				</div>
 			</div>
@@ -109,7 +109,7 @@ PROPERTIES_END
 				<div class="panel-heading">Commands</div>
 				<div class="panel-body">
 					<div ng-repeat = "command in descriptors.commands">
-						<command name="{{command.command}}" label="{{command.label}}" parameters="{{command.parameters}}" func="invoke">
+						<command name="{{command.command}}" label="{{camelCaseToTextWithSpaces(command.label)}}" parameters="{{command.parameters}}" func="invoke">
 						</command>
 					</div>
 				</div>
