@@ -57,52 +57,52 @@
 <node TEXT="" POSITION="right" ID="ID_732095385" CREATED="1467635099230" MODIFIED="1467635099230">
 <attribute NAME="nodeType" VALUE="metamodel"/>
 <attribute NAME="prefix" VALUE="platform-cpp-arduino-ide"/>
-<node TEXT="" ID="ID_1471752224" CREATED="1467647778382" MODIFIED="1467647778382">
+<node TEXT="" ID="ID_441002088" CREATED="1468238318350" MODIFIED="1468238318350">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="typeOverride" VALUE="dynamic_default__componentsRoot"/>
-<node TEXT="" ID="ID_452804809" CREATED="1467647778385" MODIFIED="1467647778385">
+<node TEXT="" ID="ID_893020304" CREATED="1468238318353" MODIFIED="1468238318353">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="DHTSensor"/>
 </node>
 </node>
-<node TEXT="" ID="ID_874546366" CREATED="1467647778383" MODIFIED="1467647778383">
+<node TEXT="" ID="ID_554692322" CREATED="1468238318351" MODIFIED="1468238318351">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="DHTSensor"/>
-<node TEXT="" ID="ID_453056653" CREATED="1467647778384" MODIFIED="1467647778384">
+<node TEXT="" ID="ID_286083391" CREATED="1468238318352" MODIFIED="1468238318352">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1745683215" CREATED="1467647778386" MODIFIED="1467647778386">
+<node TEXT="" ID="ID_1763567528" CREATED="1468238318354" MODIFIED="1468238318354">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="DHTSensor.h"/>
 </node>
-<node TEXT="" ID="ID_1564286515" CREATED="1467647778387" MODIFIED="1467647778387">
+<node TEXT="" ID="ID_1542985382" CREATED="1468238318355" MODIFIED="1468238318355">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="bool"/>
 <attribute NAME="name" VALUE="contributesToState"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_1714084657" CREATED="1467647778387" MODIFIED="1467647778387">
+<node TEXT="" ID="ID_1149108820" CREATED="1468238318356" MODIFIED="1468238318356">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="uint8_t"/>
 <attribute NAME="name" VALUE="pin"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_64156968" CREATED="1467647778388" MODIFIED="1467647778388">
+<node TEXT="" ID="ID_1888177379" CREATED="1468238318357" MODIFIED="1468238318357">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
 <attribute NAME="name" VALUE="pollInterval"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_1263060465" CREATED="1467647790510" MODIFIED="1467647790510">
+<node TEXT="" ID="ID_1388026088" CREATED="1468238318358" MODIFIED="1468238318358">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="componentEvent"/>
 <attribute NAME="value" VALUE="onTemperatureChanged"/>
 <attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="ValueChangedEvent"/>
 </node>
-<node TEXT="" ID="ID_1636206866" CREATED="1467647791469" MODIFIED="1467647791469">
+<node TEXT="" ID="ID_174223894" CREATED="1468238318358" MODIFIED="1468238318358">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="componentEvent"/>
 <attribute NAME="value" VALUE="onHumidityChanged"/>
