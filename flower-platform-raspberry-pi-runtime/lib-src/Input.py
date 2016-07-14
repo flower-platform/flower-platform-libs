@@ -21,8 +21,8 @@ class Input :
     onValueChanged = None
 
     """
-	@componentAttribute
-	"""
+    @componentAttribute
+    """
     pin = None
 
     """
@@ -36,34 +36,34 @@ class Input :
     internalPullUp = False
 
     def setup(self) :
-    	GPIO.setmode(GPIO.BCM)
-    	if self.internalPullUp :
-    	    GPIO.setup(self.pin, GPIO.IN, pull_up_down = GPIO.PUD_UP)
-    	    self.lastValue = GPIO.HIGH
-    	else :
-    	    GPIO.setup(self.pin, GPIO.IN)
-    	    self.lastValue = GPIO.LOW
+      GPIO.setmode(GPIO.BCM)
+      if self.internalPullUp :
+          GPIO.setup(self.pin, GPIO.IN, pull_up_down = GPIO.PUD_UP)
+          self.lastValue = GPIO.HIGH
+      else :
+          GPIO.setup(self.pin, GPIO.IN)
+          self.lastValue = GPIO.LOW
 
     def loop(self) :
-        value = GPIO.input(self.pin)
+      value = GPIO.input(self.pin)
 
-    	if value == self.lastValue :
-        	    return
+      if value == self.lastValue :
+          return
     
-    	if time.time() * 1000 - self.lastTime < self.pollInterval : 
-    	    return
+      if time.time() * 1000 - self.lastTime < self.pollInterval : 
+          return
     
-    	if self.onValueChanged is not None :
-    	    event = ValueChangedEvent
-    	    event.previousValue = self.lastValue
-    	    event.currentValue = value
-    	    self.onValueChanged(event)
+      if self.onValueChanged is not None :
+          event = ValueChangedEvent
+          event.previousValue = self.lastValue
+          event.currentValue = value
+          self.onValueChanged(event)
     
-    	self.lastValue = value
-    	self.lastTime = time.time() * 1000
+      self.lastValue = value
+      self.lastTime = time.time() * 1000
 
     def stop(self) :
-        return
+      return
 
     def getStateAsJson(self) :
-	       return self.lastValue
+      return self.lastValue

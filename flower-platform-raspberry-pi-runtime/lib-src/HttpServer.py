@@ -3,43 +3,43 @@ import BaseHTTPServer
 import threading
 
 """
-@component
+documentation of HTttpServer component
 """
 class HttpServer:
 
     """    
-    @componentHandler
+    documentation of onCommandReceived handler
     """    
     onCommandReceived = None
     
-    """
-    @componentAttribute
-    """
     port = 8080
-
+  
+    """    
+    documentation of setup method
+    """ 
     def setup(self) :
-    	self.server = BaseHTTPServer.HTTPServer(('', self.port), HttpRequestHandler)
-    	self.server.onCommandReceived = self.onCommandReceived
-    	thread = threading.Thread(target = self.server.serve_forever)
-    	thread.daemon = True
-    	thread.start()
+      self.server = BaseHTTPServer.HTTPServer(('', self.port), HttpRequestHandler)
+      self.server.onCommandReceived = self.onCommandReceived
+      thread = threading.Thread(target = self.server.serve_forever)
+      thread.daemon = True
+      thread.start()
 
     def loop(self) :
-        return
+      return
 
     def stop(self) :
-    	self.server.shutdown()
-    	self.server.server_close()
+      self.server.shutdown()
+      self.server.server_close()
 
 class HttpRequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
 
     def do_GET(self):
-    	if self.server.onCommandReceived is None:
-    	    return
-    	event = HttpCommandEvent()
-    	event.url = self.path[1:]
-    	event.client = self
-    	self.server.onCommandReceived(event)
+      if self.server.onCommandReceived is None:
+          return
+      event = HttpCommandEvent()
+      event.url = self.path[1:]
+      event.client = self
+      self.server.onCommandReceived(event)
 
 class HttpCommandEvent:
 
