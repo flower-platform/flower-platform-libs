@@ -7,19 +7,6 @@ PROPERTIES_END
 		$scope.commands = [];		
 		$http.get($scope.getBoardUrl("getDescriptors")).success(function(response) {
 			$scope.descriptors = response;
-			for (var i = 0; i < $scope.descriptors.commands.length; i++) {
-				$scope.commands[i]= {};
-				command = $scope.descriptors.commands[i];
-				if (command.parameters) {
-					commandParameters =  command.parameters.split(';');
-					$scope.commands[i].parameters= [];
-					angular.forEach(commandParameters, function(value, key) {
-							this.push({"type": value.split(':')[1].trim(), "name": value.split(':')[0].trim(), value: ""});
-					}, $scope.commands[i].parameters);
-				}
-				$scope.commands[i].name = command.command;
-				$scope.commands[i].label = command.label;
-			}
 		})
 	}]);
 	ui.directive('command', function() {
@@ -36,13 +23,13 @@ PROPERTIES_END
 								<form class="form-horizontal" role="form">\
 									<div ng-repeat="parameter in parameterArray track by $index">\
 										<div class="form-group" ng-if= "parameter.type != \'boolean\'">\
-											<label for="{{parameter.name}}" class="col-md-3 col-sm-2 col-xs-2 control-label">{{parameter.name}}</label>\
+											<label for="{{parameter.name}}" class="col-md-5 col-sm-5 col-xs-5 control-label">{{parameter.name}}</label>\
 											<div class="col-md-6 col-sm-6 col-xs-6">\
 												<input ng-model="parameterArray[$index].value" type="text" class="form-control" id="{{parameter.name}}" placeholder="Enter value of {{parameter.name}}" />\
 											</div>\
 										</div>\
 										<div ng-if="parameter.type == \'boolean\'" class="form-group">\
-											<label class="col-md-3 col-sm-2 col-xs-2 control-label">{{parameter.name}}</label>\
+											<label class="col-md-5 col-sm-5 col-xs-5 control-label">{{parameter.name}}</label>\
 											<div class="col-md-6 col-sm-6 col-xs-6">\
 												 <input ng-model="parameterArray[$index].value" type="checkbox" style="float: left; padding-top: 2% " >\
 											</div>\
@@ -65,7 +52,9 @@ PROPERTIES_END
 				commandParameters =  attrs.parameters.split(';');
 				scope.parameterArray = [];
 				angular.forEach(commandParameters, function(value, key) {
+					if (value.indexOf(":") > -1) {
 						this.push({"type": value.split(':')[1].trim(), "name": value.split(':')[0].trim(), value: ""});
+					}
 				}, scope.parameterArray);
 			}
 		}		
