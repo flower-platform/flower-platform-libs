@@ -1,4 +1,4 @@
-from FlowerPlatformRuntime import ValueChangedEvent
+from ValueChangedEvent import ValueChangedEvent
 import RPi.GPIO as GPIO
 
 """
@@ -75,8 +75,8 @@ class Output:
     '''
     getStateAsJson
     '''
-    def getStateAsJson(self):
-      return self.lastValue
+    def getStateAsJson(self, instanceName):
+      return '"{}":{}'.format(instanceName, self.lastValue);
 
     def loop(self) :
       return

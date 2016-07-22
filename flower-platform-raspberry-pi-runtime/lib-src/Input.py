@@ -1,4 +1,4 @@
-from FlowerPlatformRuntime import ValueChangedEvent
+from ValueChangedEvent import ValueChangedEvent
 import RPi.GPIO as GPIO
 import time
 
@@ -8,6 +8,7 @@ import time
 class Input :
 
     lastValue = GPIO.LOW
+    
     lastTime = 0
     
     """    
@@ -65,5 +66,5 @@ class Input :
     def stop(self) :
       return
 
-    def getStateAsJson(self) :
-      return self.lastValue
+    def getStateAsJson(self, instanceName) :
+      return '"{}":{}'.format(instanceName, self.lastValue);

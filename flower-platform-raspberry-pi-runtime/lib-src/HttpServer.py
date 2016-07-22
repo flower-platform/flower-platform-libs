@@ -1,6 +1,7 @@
 import time
 import BaseHTTPServer
 import threading
+import urlparse
 
 """
 documentation of HTttpServer component
@@ -37,8 +38,11 @@ class HttpRequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
       if self.server.onCommandReceived is None:
           return
       event = HttpCommandEvent()
-      event.url = self.path[1:]
       event.client = self
+      parseResult = urlparse.urlparse(self.path)
+      event.url = parseResult.path[1:]
+      event.parameters = urlparse.parse_qs(parseResult.query)
+      event.url
       self.server.onCommandReceived(event)
 
 class HttpCommandEvent:
@@ -46,3 +50,5 @@ class HttpCommandEvent:
     url = None
 
     client = None
+    
+    parameters = None

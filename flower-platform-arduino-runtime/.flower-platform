@@ -57,630 +57,630 @@
 <node TEXT="" POSITION="right" ID="ID_651622904" CREATED="1463403471745" MODIFIED="1463403471745">
 <attribute NAME="nodeType" VALUE="metamodel"/>
 <attribute NAME="prefix" VALUE="platform-cpp-arduino-ide"/>
-<node TEXT="" ID="ID_153840790" CREATED="1468238627359" MODIFIED="1468238627359">
+<node TEXT="" ID="ID_1070959095" CREATED="1468583242957" MODIFIED="1468583242957">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="typeOverride" VALUE="dynamic_default__componentsRoot"/>
-<node TEXT="" ID="ID_1626840664" CREATED="1468238627360" MODIFIED="1468238627360">
+<node TEXT="" ID="ID_1032173088" CREATED="1468583242958" MODIFIED="1468583242958">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="ESP8266NativeNetworkAdapter"/>
 </node>
-<node TEXT="" ID="ID_574885528" CREATED="1468238627361" MODIFIED="1468238627361">
+<node TEXT="" ID="ID_1534413200" CREATED="1468583242959" MODIFIED="1468583242959">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="ESP8266NetworkAdapter"/>
 </node>
-<node TEXT="" ID="ID_1031573772" CREATED="1468238627364" MODIFIED="1468238627364">
+<node TEXT="" ID="ID_1744907838" CREATED="1468583242961" MODIFIED="1468583242961">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="EthernetNetworkAdapter"/>
 </node>
-<node TEXT="" ID="ID_204807925" CREATED="1468238627365" MODIFIED="1468238627365">
+<node TEXT="" ID="ID_1233744805" CREATED="1468583242962" MODIFIED="1468583242962">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="HttpServer"/>
 </node>
-<node TEXT="" ID="ID_1082121468" CREATED="1468238627366" MODIFIED="1468238627366">
+<node TEXT="" ID="ID_1989456552" CREATED="1468583242964" MODIFIED="1468583242964">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="HttpCommandEvent"/>
 </node>
-<node TEXT="" ID="ID_1898070863" CREATED="1468238627367" MODIFIED="1468238627367">
+<node TEXT="" ID="ID_1021491720" CREATED="1468583242965" MODIFIED="1468583242965">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="INetworkAdapter"/>
 </node>
-<node TEXT="" ID="ID_1489697370" CREATED="1468238627368" MODIFIED="1468238627368">
+<node TEXT="" ID="ID_1546405782" CREATED="1468583242966" MODIFIED="1468583242966">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="Input"/>
 </node>
-<node TEXT="" ID="ID_1149049124" CREATED="1468238627370" MODIFIED="1468238627370">
+<node TEXT="" ID="ID_1871425880" CREATED="1468583242968" MODIFIED="1468583242968">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="IProtocolHandler"/>
 </node>
-<node TEXT="" ID="ID_1250857457" CREATED="1468238627371" MODIFIED="1468238627371">
+<node TEXT="" ID="ID_1900290599" CREATED="1468583242970" MODIFIED="1468583242970">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="IWiFiNetworkAdapter"/>
 </node>
-<node TEXT="" ID="ID_987361436" CREATED="1468238627372" MODIFIED="1468238627372">
+<node TEXT="" ID="ID_1471883274" CREATED="1468583242971" MODIFIED="1468583242971">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="MyComponent"/>
 </node>
-<node TEXT="" ID="ID_146004300" CREATED="1468238627374" MODIFIED="1468238627374">
+<node TEXT="" ID="ID_915465570" CREATED="1468583242973" MODIFIED="1468583242973">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="MyComponent2"/>
 </node>
-<node TEXT="" ID="ID_1145448867" CREATED="1468238627376" MODIFIED="1468238627376">
+<node TEXT="" ID="ID_686750270" CREATED="1468583242975" MODIFIED="1468583242975">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="MyComponent3"/>
 </node>
-<node TEXT="" ID="ID_1848575524" CREATED="1468238627378" MODIFIED="1468238627378">
+<node TEXT="" ID="ID_756347245" CREATED="1468583242977" MODIFIED="1468583242977">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="Output"/>
 </node>
-<node TEXT="" ID="ID_1845570569" CREATED="1468238627380" MODIFIED="1468238627380">
+<node TEXT="" ID="ID_299755428" CREATED="1468583242979" MODIFIED="1468583242979">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="Timer"/>
 </node>
-<node TEXT="" ID="ID_608782288" CREATED="1468238627382" MODIFIED="1468238627382">
+<node TEXT="" ID="ID_487559829" CREATED="1468583242981" MODIFIED="1468583242981">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="TimerEvent"/>
 </node>
-<node TEXT="" ID="ID_643600091" CREATED="1468238627383" MODIFIED="1468238627383">
+<node TEXT="" ID="ID_1994503617" CREATED="1468583242982" MODIFIED="1468583242982">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="WiFi101NetworkAdapter"/>
 </node>
-<node TEXT="" ID="ID_302192320" CREATED="1468238627384" MODIFIED="1468238627384">
+<node TEXT="" ID="ID_1661847842" CREATED="1468583242983" MODIFIED="1468583242983">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="WiFiNetworkAdapter"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1330603652" CREATED="1468238627360" MODIFIED="1468238627360">
+<node TEXT="" ID="ID_1348761271" CREATED="1468583242957" MODIFIED="1468583242957">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="ESP8266NativeNetworkAdapter"/>
-<node TEXT="" ID="ID_1851456136" CREATED="1468238627360" MODIFIED="1468238627360">
+<node TEXT="" ID="ID_1717956100" CREATED="1468583242957" MODIFIED="1468583242957">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_803940229" CREATED="1468238627361" MODIFIED="1468238627361">
+<node TEXT="" ID="ID_1789207866" CREATED="1468583242958" MODIFIED="1468583242958">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="ESP8266NativeNetworkAdapter.h"/>
 </node>
-<node TEXT="" ID="ID_1151276705" CREATED="1468238627361" MODIFIED="1468238627361">
+<node TEXT="" ID="ID_133196614" CREATED="1468583242958" MODIFIED="1468583242958">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="superClass"/>
 <attribute NAME="value" VALUE="IWiFiNetworkAdapter"/>
 </node>
 </node>
-<node TEXT="" ID="ID_263406979" CREATED="1468238627361" MODIFIED="1468238627361">
+<node TEXT="" ID="ID_1089157294" CREATED="1468583242959" MODIFIED="1468583242959">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="ESP8266NetworkAdapter"/>
-<node TEXT="" ID="ID_1994290497" CREATED="1468238627361" MODIFIED="1468238627361">
+<node TEXT="" ID="ID_131958611" CREATED="1468583242959" MODIFIED="1468583242959">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1139522633" CREATED="1468238627362" MODIFIED="1468238627362">
+<node TEXT="" ID="ID_473056950" CREATED="1468583242959" MODIFIED="1468583242959">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="ESP8266NetworkAdapter.h"/>
 </node>
-<node TEXT="" ID="ID_973856725" CREATED="1468238627362" MODIFIED="1468238627362">
+<node TEXT="" ID="ID_1260013779" CREATED="1468583242959" MODIFIED="1468583242959">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="bool"/>
 <attribute NAME="name" VALUE="accessPointMode"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_11749815" CREATED="1468238627362" MODIFIED="1468238627362">
+<node TEXT="" ID="ID_1543559603" CREATED="1468583242960" MODIFIED="1468583242960">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="uint8_t"/>
 <attribute NAME="name" VALUE="extraClientsSP"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_21861070" CREATED="1468238627362" MODIFIED="1468238627362">
+<node TEXT="" ID="ID_788922571" CREATED="1468583242960" MODIFIED="1468583242960">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="ESP8266Client"/>
 <attribute NAME="name" VALUE="recvClient"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
-<node TEXT="" ID="ID_1422667328" CREATED="1468238627362" MODIFIED="1468238627362">
+<node TEXT="" ID="ID_1296473918" CREATED="1468583242960" MODIFIED="1468583242960">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
 <attribute NAME="name" VALUE="writeStatus"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_710727056" CREATED="1468238627363" MODIFIED="1468238627363">
+<node TEXT="" ID="ID_1786575267" CREATED="1468583242960" MODIFIED="1468583242960">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="long "/>
 <attribute NAME="name" VALUE="readDeadlineTimestamp"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_96051299" CREATED="1468238627363" MODIFIED="1468238627363">
+<node TEXT="" ID="ID_1074358510" CREATED="1468583242960" MODIFIED="1468583242960">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="superClass"/>
 <attribute NAME="value" VALUE="IWiFiNetworkAdapter"/>
 </node>
 </node>
-<node TEXT="" ID="ID_545003279" CREATED="1468238627363" MODIFIED="1468238627363">
+<node TEXT="" ID="ID_1489179914" CREATED="1468583242961" MODIFIED="1468583242961">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="EthernetNetworkAdapter"/>
-<node TEXT="" ID="ID_492313786" CREATED="1468238627363" MODIFIED="1468238627363">
+<node TEXT="" ID="ID_1593622831" CREATED="1468583242961" MODIFIED="1468583242961">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_518555893" CREATED="1468238627364" MODIFIED="1468238627364">
+<node TEXT="" ID="ID_1806683797" CREATED="1468583242961" MODIFIED="1468583242961">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="EthernetNetworkAdapter.h"/>
 </node>
-<node TEXT="" ID="ID_1918070962" CREATED="1468238627364" MODIFIED="1468238627364">
+<node TEXT="" ID="ID_820701609" CREATED="1468583242961" MODIFIED="1468583242961">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="char"/>
 <attribute NAME="name" VALUE="macAddressStr"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
-<node TEXT="" ID="ID_1031115958" CREATED="1468238627364" MODIFIED="1468238627364">
+<node TEXT="" ID="ID_1045999" CREATED="1468583242962" MODIFIED="1468583242962">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="superClass"/>
 <attribute NAME="value" VALUE="INetworkAdapter"/>
 </node>
 </node>
-<node TEXT="" ID="ID_387687483" CREATED="1468238627364" MODIFIED="1468238627364">
+<node TEXT="" ID="ID_111853013" CREATED="1468583242962" MODIFIED="1468583242962">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="HttpServer"/>
-<node TEXT="" ID="ID_38383128" CREATED="1468238627365" MODIFIED="1468238627365">
+<node TEXT="" ID="ID_755513126" CREATED="1468583242962" MODIFIED="1468583242962">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1615500571" CREATED="1468238627365" MODIFIED="1468238627365">
+<node TEXT="" ID="ID_1462046771" CREATED="1468583242963" MODIFIED="1468583242963">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="HttpServer.h"/>
 </node>
-<node TEXT="" ID="ID_104493519" CREATED="1468238627365" MODIFIED="1468238627365">
+<node TEXT="" ID="ID_1515307444" CREATED="1468583242963" MODIFIED="1468583242963">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="componentEvent"/>
 <attribute NAME="value" VALUE="onCommandReceived"/>
 <attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="HttpCommandEvent"/>
 </node>
-<node TEXT="" ID="ID_644113781" CREATED="1468238627365" MODIFIED="1468238627365">
+<node TEXT="" ID="ID_666889467" CREATED="1468583242963" MODIFIED="1468583242963">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="superClass"/>
 <attribute NAME="value" VALUE="IProtocolHandler"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1667667094" CREATED="1468238627365" MODIFIED="1468238627365">
+<node TEXT="" ID="ID_1318767091" CREATED="1468583242963" MODIFIED="1468583242963">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="HttpCommandEvent"/>
-<node TEXT="" ID="ID_919781188" CREATED="1468238627366" MODIFIED="1468238627366">
+<node TEXT="" ID="ID_305455018" CREATED="1468583242963" MODIFIED="1468583242963">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1648160175" CREATED="1468238627366" MODIFIED="1468238627366">
+<node TEXT="" ID="ID_1476491726" CREATED="1468583242964" MODIFIED="1468583242964">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="HttpServer.h"/>
 </node>
-<node TEXT="" ID="ID_820673697" CREATED="1468238627366" MODIFIED="1468238627366">
+<node TEXT="" ID="ID_1942471654" CREATED="1468583242964" MODIFIED="1468583242964">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="char"/>
 <attribute NAME="name" VALUE="url"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
-<node TEXT="" ID="ID_162080460" CREATED="1468238627366" MODIFIED="1468238627366">
+<node TEXT="" ID="ID_134234407" CREATED="1468583242964" MODIFIED="1468583242964">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="HttpServer"/>
 <attribute NAME="name" VALUE="server"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
-<node TEXT="" ID="ID_1614545758" CREATED="1468238627367" MODIFIED="1468238627367">
+<node TEXT="" ID="ID_205596919" CREATED="1468583242965" MODIFIED="1468583242965">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="Client"/>
 <attribute NAME="name" VALUE="client"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
 </node>
-<node TEXT="" ID="ID_265591627" CREATED="1468238627367" MODIFIED="1468238627367">
+<node TEXT="" ID="ID_1615105583" CREATED="1468583242965" MODIFIED="1468583242965">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="INetworkAdapter"/>
-<node TEXT="" ID="ID_870180667" CREATED="1468238627367" MODIFIED="1468238627367">
+<node TEXT="" ID="ID_1437025253" CREATED="1468583242965" MODIFIED="1468583242965">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1797487604" CREATED="1468238627367" MODIFIED="1468238627367">
+<node TEXT="" ID="ID_436165245" CREATED="1468583242965" MODIFIED="1468583242965">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="INetworkAdapter.h"/>
 </node>
-<node TEXT="" ID="ID_1225441435" CREATED="1468238627368" MODIFIED="1468238627368">
+<node TEXT="" ID="ID_1904827483" CREATED="1468583242966" MODIFIED="1468583242966">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="IProtocolHandler"/>
 <attribute NAME="name" VALUE="protocolHandler"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
-<node TEXT="" ID="ID_1128834609" CREATED="1468238627368" MODIFIED="1468238627368">
+<node TEXT="" ID="ID_1872581692" CREATED="1468583242966" MODIFIED="1468583242966">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="char"/>
 <attribute NAME="name" VALUE="ipAddressStr"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
 </node>
-<node TEXT="" ID="ID_710338172" CREATED="1468238627368" MODIFIED="1468238627368">
+<node TEXT="" ID="ID_44482413" CREATED="1468583242966" MODIFIED="1468583242966">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="Input"/>
-<node TEXT="" ID="ID_830785782" CREATED="1468238627368" MODIFIED="1468238627368">
+<node TEXT="" ID="ID_1685726936" CREATED="1468583242966" MODIFIED="1468583242966">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1855084484" CREATED="1468238627368" MODIFIED="1468238627368">
+<node TEXT="" ID="ID_443127263" CREATED="1468583242967" MODIFIED="1468583242967">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="Input.h"/>
 </node>
-<node TEXT="" ID="ID_1452267990" CREATED="1468238627369" MODIFIED="1468238627369">
+<node TEXT="" ID="ID_1473016388" CREATED="1468583242967" MODIFIED="1468583242967">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="bool"/>
 <attribute NAME="name" VALUE="contributesToState"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_1520847503" CREATED="1468238627369" MODIFIED="1468238627369">
+<node TEXT="" ID="ID_1654122376" CREATED="1468583242967" MODIFIED="1468583242967">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="uint8_t"/>
 <attribute NAME="name" VALUE="pin"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_1319617211" CREATED="1468238627369" MODIFIED="1468238627369">
+<node TEXT="" ID="ID_1746718197" CREATED="1468583242967" MODIFIED="1468583242967">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
 <attribute NAME="name" VALUE="pollInterval"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_1627170632" CREATED="1468238627369" MODIFIED="1468238627369">
+<node TEXT="" ID="ID_1963947919" CREATED="1468583242967" MODIFIED="1468583242967">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="bool"/>
 <attribute NAME="name" VALUE="internalPullUp"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_844468386" CREATED="1468238627369" MODIFIED="1468238627369">
+<node TEXT="" ID="ID_505552511" CREATED="1468583242968" MODIFIED="1468583242968">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="bool"/>
 <attribute NAME="name" VALUE="isAnalog"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_662198228" CREATED="1468238627370" MODIFIED="1468238627370">
+<node TEXT="" ID="ID_664029288" CREATED="1468583242968" MODIFIED="1468583242968">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="componentEvent"/>
 <attribute NAME="value" VALUE="onValueChanged"/>
 <attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="ValueChangedEvent"/>
 </node>
 </node>
-<node TEXT="" ID="ID_408535881" CREATED="1468238627370" MODIFIED="1468238627370">
+<node TEXT="" ID="ID_383012945" CREATED="1468583242968" MODIFIED="1468583242968">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="IProtocolHandler"/>
-<node TEXT="" ID="ID_1084927792" CREATED="1468238627370" MODIFIED="1468238627370">
+<node TEXT="" ID="ID_1638188000" CREATED="1468583242968" MODIFIED="1468583242968">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_519295217" CREATED="1468238627370" MODIFIED="1468238627370">
+<node TEXT="" ID="ID_1896148424" CREATED="1468583242969" MODIFIED="1468583242969">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="IProtocolHandler.h"/>
 </node>
-<node TEXT="" ID="ID_1281949677" CREATED="1468238627370" MODIFIED="1468238627370">
+<node TEXT="" ID="ID_1954817879" CREATED="1468583242969" MODIFIED="1468583242969">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
 <attribute NAME="name" VALUE="port"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1808535582" CREATED="1468238627371" MODIFIED="1468238627371">
+<node TEXT="" ID="ID_91669990" CREATED="1468583242969" MODIFIED="1468583242969">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="IWiFiNetworkAdapter"/>
-<node TEXT="" ID="ID_1516198812" CREATED="1468238627371" MODIFIED="1468238627371">
+<node TEXT="" ID="ID_1165758900" CREATED="1468583242969" MODIFIED="1468583242969">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_596030345" CREATED="1468238627371" MODIFIED="1468238627371">
+<node TEXT="" ID="ID_319731645" CREATED="1468583242970" MODIFIED="1468583242970">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="IWiFiNetworkAdapter.h"/>
 </node>
-<node TEXT="" ID="ID_1797208401" CREATED="1468238627372" MODIFIED="1468238627372">
+<node TEXT="" ID="ID_1733611132" CREATED="1468583242970" MODIFIED="1468583242970">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="char"/>
 <attribute NAME="name" VALUE="ssid"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
-<node TEXT="" ID="ID_1434589605" CREATED="1468238627372" MODIFIED="1468238627372">
+<node TEXT="" ID="ID_1588092069" CREATED="1468583242970" MODIFIED="1468583242970">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="char"/>
 <attribute NAME="name" VALUE="password"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
-<node TEXT="" ID="ID_84503358" CREATED="1468238627372" MODIFIED="1468238627372">
+<node TEXT="" ID="ID_687236498" CREATED="1468583242970" MODIFIED="1468583242970">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="superClass"/>
 <attribute NAME="value" VALUE="INetworkAdapter"/>
 </node>
 </node>
-<node TEXT="" ID="ID_810359873" CREATED="1468238627372" MODIFIED="1468238627372">
+<node TEXT="" ID="ID_1504204687" CREATED="1468583242971" MODIFIED="1468583242971">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="MyComponent"/>
-<node TEXT="" ID="ID_316181578" CREATED="1468238627372" MODIFIED="1468238627372">
+<node TEXT="" ID="ID_1756464176" CREATED="1468583242971" MODIFIED="1468583242971">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1870670563" CREATED="1468238627373" MODIFIED="1468238627373">
+<node TEXT="" ID="ID_1653823635" CREATED="1468583242971" MODIFIED="1468583242971">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="MyComponent.h"/>
 </node>
-<node TEXT="" ID="ID_763250930" CREATED="1468238627373" MODIFIED="1468238627373">
+<node TEXT="" ID="ID_196605607" CREATED="1468583242971" MODIFIED="1468583242971">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
 <attribute NAME="name" VALUE="attribute1"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_871133211" CREATED="1468238627373" MODIFIED="1468238627373">
+<node TEXT="" ID="ID_800655310" CREATED="1468583242972" MODIFIED="1468583242972">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
 <attribute NAME="name" VALUE="attribute2"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_1010760274" CREATED="1468238627373" MODIFIED="1468238627373">
+<node TEXT="" ID="ID_382602577" CREATED="1468583242972" MODIFIED="1468583242972">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="char"/>
 <attribute NAME="name" VALUE="attributePtr"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
-<node TEXT="" ID="ID_1235844849" CREATED="1468238627374" MODIFIED="1468238627374">
+<node TEXT="" ID="ID_1319640280" CREATED="1468583242972" MODIFIED="1468583242972">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="MyComponent"/>
 <attribute NAME="name" VALUE="attributePtr2"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
-<node TEXT="" ID="ID_1425791450" CREATED="1468238627374" MODIFIED="1468238627374">
+<node TEXT="" ID="ID_232561723" CREATED="1468583242972" MODIFIED="1468583242972">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
 <attribute NAME="name" VALUE="attribute3"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1533206032" CREATED="1468238627374" MODIFIED="1468238627374">
+<node TEXT="" ID="ID_1477482376" CREATED="1468583242973" MODIFIED="1468583242973">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="MyComponent2"/>
-<node TEXT="" ID="ID_605477322" CREATED="1468238627374" MODIFIED="1468238627374">
+<node TEXT="" ID="ID_273800797" CREATED="1468583242973" MODIFIED="1468583242973">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1334731420" CREATED="1468238627375" MODIFIED="1468238627375">
+<node TEXT="" ID="ID_1582627519" CREATED="1468583242973" MODIFIED="1468583242973">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="MyComponent2.h"/>
 </node>
-<node TEXT="" ID="ID_335995513" CREATED="1468238627375" MODIFIED="1468238627375">
+<node TEXT="" ID="ID_720504451" CREATED="1468583242974" MODIFIED="1468583242974">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
 <attribute NAME="name" VALUE="attribute1_2"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_1661221432" CREATED="1468238627375" MODIFIED="1468238627375">
+<node TEXT="" ID="ID_940507597" CREATED="1468583242974" MODIFIED="1468583242974">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
 <attribute NAME="name" VALUE="attribute2_2"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_302174078" CREATED="1468238627375" MODIFIED="1468238627375">
+<node TEXT="" ID="ID_439853168" CREATED="1468583242974" MODIFIED="1468583242974">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
 <attribute NAME="name" VALUE="attribute3_2"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_187208289" CREATED="1468238627375" MODIFIED="1468238627375">
+<node TEXT="" ID="ID_1560656301" CREATED="1468583242974" MODIFIED="1468583242974">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="superClass"/>
 <attribute NAME="value" VALUE="MyComponent"/>
 </node>
 </node>
-<node TEXT="" ID="ID_222033086" CREATED="1468238627376" MODIFIED="1468238627376">
+<node TEXT="" ID="ID_709674180" CREATED="1468583242974" MODIFIED="1468583242974">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="MyComponent3"/>
-<node TEXT="" ID="ID_1752250543" CREATED="1468238627376" MODIFIED="1468238627376">
+<node TEXT="" ID="ID_640032490" CREATED="1468583242975" MODIFIED="1468583242975">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1988746364" CREATED="1468238627376" MODIFIED="1468238627376">
+<node TEXT="" ID="ID_157922209" CREATED="1468583242975" MODIFIED="1468583242975">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="MyComponent3.h"/>
 </node>
-<node TEXT="" ID="ID_1075578026" CREATED="1468238627376" MODIFIED="1468238627376">
+<node TEXT="" ID="ID_1560063265" CREATED="1468583242975" MODIFIED="1468583242975">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
 <attribute NAME="name" VALUE="attribute1_3"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_211088629" CREATED="1468238627376" MODIFIED="1468238627376">
+<node TEXT="" ID="ID_1005628359" CREATED="1468583242975" MODIFIED="1468583242975">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
 <attribute NAME="name" VALUE="attribute2_3"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_329603380" CREATED="1468238627377" MODIFIED="1468238627377">
+<node TEXT="" ID="ID_88566108" CREATED="1468583242976" MODIFIED="1468583242976">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
 <attribute NAME="name" VALUE="attribute3_3"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_571177223" CREATED="1468238627377" MODIFIED="1468238627377">
+<node TEXT="" ID="ID_673075033" CREATED="1468583242976" MODIFIED="1468583242976">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="superClass"/>
 <attribute NAME="value" VALUE="Input"/>
 </node>
-<node TEXT="" ID="ID_1734843505" CREATED="1468238627377" MODIFIED="1468238627377">
+<node TEXT="" ID="ID_966350982" CREATED="1468583242976" MODIFIED="1468583242976">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="superClass"/>
 <attribute NAME="value" VALUE="MyComponent2"/>
 </node>
-<node TEXT="" ID="ID_785577203" CREATED="1468238627377" MODIFIED="1468238627377">
+<node TEXT="" ID="ID_1887088280" CREATED="1468583242976" MODIFIED="1468583242976">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="superClass"/>
 <attribute NAME="value" VALUE="MyComponent"/>
 </node>
 </node>
-<node TEXT="" ID="ID_758558880" CREATED="1468238627377" MODIFIED="1468238627377">
+<node TEXT="" ID="ID_684390728" CREATED="1468583242976" MODIFIED="1468583242976">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="Output"/>
-<node TEXT="" ID="ID_1149255126" CREATED="1468238627378" MODIFIED="1468238627378">
+<node TEXT="" ID="ID_21423359" CREATED="1468583242977" MODIFIED="1468583242977">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_849591598" CREATED="1468238627378" MODIFIED="1468238627378">
+<node TEXT="" ID="ID_1510105060" CREATED="1468583242977" MODIFIED="1468583242977">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="Output.h"/>
 </node>
-<node TEXT="" ID="ID_363303338" CREATED="1468238627378" MODIFIED="1468238627378">
+<node TEXT="" ID="ID_802309619" CREATED="1468583242977" MODIFIED="1468583242977">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="bool"/>
 <attribute NAME="name" VALUE="contributesToState"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_930692136" CREATED="1468238627379" MODIFIED="1468238627379">
+<node TEXT="" ID="ID_1198736989" CREATED="1468583242977" MODIFIED="1468583242977">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="uint8_t"/>
 <attribute NAME="name" VALUE="pin"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_1769415986" CREATED="1468238627379" MODIFIED="1468238627379">
+<node TEXT="" ID="ID_269307412" CREATED="1468583242978" MODIFIED="1468583242978">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="uint8_t"/>
 <attribute NAME="name" VALUE="initialValue"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_718888368" CREATED="1468238627379" MODIFIED="1468238627379">
+<node TEXT="" ID="ID_1517594037" CREATED="1468583242978" MODIFIED="1468583242978">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="bool"/>
 <attribute NAME="name" VALUE="isPwm"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_1573803829" CREATED="1468238627379" MODIFIED="1468238627379">
+<node TEXT="" ID="ID_397801436" CREATED="1468583242978" MODIFIED="1468583242978">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="componentEvent"/>
 <attribute NAME="value" VALUE="onValueChanged"/>
 <attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="ValueChangedEvent"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1482634652" CREATED="1468238627379" MODIFIED="1468238627379">
+<node TEXT="" ID="ID_734550316" CREATED="1468583242978" MODIFIED="1468583242978">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="Timer"/>
-<node TEXT="" ID="ID_456970364" CREATED="1468238627379" MODIFIED="1468238627379">
+<node TEXT="" ID="ID_127851718" CREATED="1468583242978" MODIFIED="1468583242978">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1723243867" CREATED="1468238627380" MODIFIED="1468238627380">
+<node TEXT="" ID="ID_552465024" CREATED="1468583242979" MODIFIED="1468583242979">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="Timer.h"/>
 </node>
-<node TEXT="" ID="ID_1868406134" CREATED="1468238627380" MODIFIED="1468238627380">
+<node TEXT="" ID="ID_376330833" CREATED="1468583242979" MODIFIED="1468583242979">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
 <attribute NAME="name" VALUE="currentCount"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_728551462" CREATED="1468238627380" MODIFIED="1468238627380">
+<node TEXT="" ID="ID_390773698" CREATED="1468583242979" MODIFIED="1468583242979">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="long "/>
 <attribute NAME="name" VALUE="delay"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_1242551031" CREATED="1468238627380" MODIFIED="1468238627380">
+<node TEXT="" ID="ID_532678427" CREATED="1468583242979" MODIFIED="1468583242979">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
 <attribute NAME="name" VALUE="repeatCount"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_1420732623" CREATED="1468238627381" MODIFIED="1468238627381">
+<node TEXT="" ID="ID_1366740630" CREATED="1468583242980" MODIFIED="1468583242980">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="bool"/>
 <attribute NAME="name" VALUE="autoStart"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_22128983" CREATED="1468238627381" MODIFIED="1468238627381">
+<node TEXT="" ID="ID_1631755142" CREATED="1468583242980" MODIFIED="1468583242980">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="componentEvent"/>
 <attribute NAME="value" VALUE="onTimer"/>
 <attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="TimerEvent"/>
 </node>
-<node TEXT="" ID="ID_187504843" CREATED="1468238627381" MODIFIED="1468238627381">
+<node TEXT="" ID="ID_592612477" CREATED="1468583242980" MODIFIED="1468583242980">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="componentEvent"/>
 <attribute NAME="value" VALUE="onTimerComplete"/>
 <attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="TimerEvent"/>
 </node>
 </node>
-<node TEXT="" ID="ID_64385713" CREATED="1468238627381" MODIFIED="1468238627381">
+<node TEXT="" ID="ID_140693433" CREATED="1468583242980" MODIFIED="1468583242980">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="TimerEvent"/>
-<node TEXT="" ID="ID_1305965471" CREATED="1468238627381" MODIFIED="1468238627381">
+<node TEXT="" ID="ID_1795538939" CREATED="1468583242980" MODIFIED="1468583242980">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_930954192" CREATED="1468238627382" MODIFIED="1468238627382">
+<node TEXT="" ID="ID_712243014" CREATED="1468583242981" MODIFIED="1468583242981">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="Timer.h"/>
 </node>
-<node TEXT="" ID="ID_1760348321" CREATED="1468238627382" MODIFIED="1468238627382">
+<node TEXT="" ID="ID_1820875641" CREATED="1468583242981" MODIFIED="1468583242981">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="Timer"/>
 <attribute NAME="name" VALUE="timer"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1264626012" CREATED="1468238627382" MODIFIED="1468238627382">
+<node TEXT="" ID="ID_1463196411" CREATED="1468583242981" MODIFIED="1468583242981">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="WiFi101NetworkAdapter"/>
-<node TEXT="" ID="ID_1033982678" CREATED="1468238627382" MODIFIED="1468238627382">
+<node TEXT="" ID="ID_281219279" CREATED="1468583242981" MODIFIED="1468583242981">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_887740827" CREATED="1468238627383" MODIFIED="1468238627383">
+<node TEXT="" ID="ID_1499434892" CREATED="1468583242982" MODIFIED="1468583242982">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="WiFi101NetworkAdapter.h"/>
 </node>
-<node TEXT="" ID="ID_1815993837" CREATED="1468238627383" MODIFIED="1468238627383">
+<node TEXT="" ID="ID_1333006141" CREATED="1468583242982" MODIFIED="1468583242982">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="superClass"/>
 <attribute NAME="value" VALUE="IWiFiNetworkAdapter"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1597406281" CREATED="1468238627383" MODIFIED="1468238627383">
+<node TEXT="" ID="ID_1715209470" CREATED="1468583242982" MODIFIED="1468583242982">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="WiFiNetworkAdapter"/>
-<node TEXT="" ID="ID_114575981" CREATED="1468238627383" MODIFIED="1468238627383">
+<node TEXT="" ID="ID_1708498528" CREATED="1468583242983" MODIFIED="1468583242983">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_515587639" CREATED="1468238627384" MODIFIED="1468238627384">
+<node TEXT="" ID="ID_1938905290" CREATED="1468583242983" MODIFIED="1468583242983">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="WiFiNetworkAdapter.h"/>
 </node>
-<node TEXT="" ID="ID_752992022" CREATED="1468238627384" MODIFIED="1468238627384">
+<node TEXT="" ID="ID_671630836" CREATED="1468583242983" MODIFIED="1468583242983">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="superClass"/>
 <attribute NAME="value" VALUE="IWiFiNetworkAdapter"/>
