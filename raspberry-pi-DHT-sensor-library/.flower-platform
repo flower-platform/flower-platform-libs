@@ -1,0 +1,113 @@
+<map version="freeplane 1.3.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="New Mindmap" ID="ID_1613605740" CREATED="1469445827352" MODIFIED="1469445827352"><hook NAME="MapStyle">
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
+<stylenode LOCALIZED_TEXT="default" COLOR="#000000" STYLE="fork" MAX_WIDTH="600">
+<font NAME="SansSerif" SIZE="12" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="1"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.note"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<attribute NAME="nodeType" VALUE="dynamic_root"/>
+<attribute NAME="natures" VALUE="mainModel,configRepository,metamodel,library"/>
+<attribute NAME="configRepositorySets" VALUE="configRepository,library"/>
+<attribute NAME="repositoryType" VALUE="library"/>
+<attribute NAME="url" VALUE="https://github.com/flower-platform/Adafruit_Python_DHT/archive/master.zip"/>
+<attribute NAME="targetConfigRepositorySets" VALUE="platform-python-linux"/>
+<node TEXT="" POSITION="right" ID="ID_343502764" CREATED="1469445827374" MODIFIED="1469445827374">
+<attribute NAME="nodeType" VALUE="metamodel"/>
+<attribute NAME="prefix" VALUE="platform-python-linux"/>
+<node TEXT="" ID="ID_727069032" CREATED="1469446838768" MODIFIED="1469446838768">
+<attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
+<attribute NAME="typeOverride" VALUE="dynamic_default__componentsRoot"/>
+<node TEXT="" ID="ID_1140047129" CREATED="1469446838772" MODIFIED="1469446838772">
+<attribute NAME="nodeType" VALUE="addChildDescriptor"/>
+<attribute NAME="childType" VALUE="DHTSensor"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1761425837" CREATED="1469446838770" MODIFIED="1469446838770">
+<attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
+<attribute NAME="name" VALUE="DHTSensor"/>
+<node TEXT="" ID="ID_1452611093" CREATED="1469446838771" MODIFIED="1469446838771">
+<attribute NAME="nodeType" VALUE="containingCategory"/>
+<attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="name" VALUE="category.component"/>
+</node>
+<node TEXT="" ID="ID_153530025" CREATED="1469446838773" MODIFIED="1469446838773">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="behaviorType" VALUE="import"/>
+<attribute NAME="value" VALUE="Adafruit_DHT/DHTSensor.py"/>
+</node>
+<node TEXT="" ID="ID_713480872" CREATED="1469446838775" MODIFIED="1469446838775">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="behaviorType" VALUE="documentation"/>
+</node>
+<node TEXT="" ID="ID_698897776" CREATED="1469446838777" MODIFIED="1469446838777">
+<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="name" VALUE="contributesToState"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+</node>
+<node TEXT="" ID="ID_989546028" CREATED="1469446838778" MODIFIED="1469446838778">
+<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="name" VALUE="pin"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+</node>
+<node TEXT="" ID="ID_1191553914" CREATED="1469446838779" MODIFIED="1469446838779">
+<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
+<attribute NAME="name" VALUE="pollInterval"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+</node>
+<node TEXT="" ID="ID_1995790445" CREATED="1469446838780" MODIFIED="1469446838780">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="behaviorType" VALUE="componentEvent"/>
+<attribute NAME="value" VALUE="onTemperatureChanged"/>
+</node>
+<node TEXT="" ID="ID_991159988" CREATED="1469446838781" MODIFIED="1469446838781">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="behaviorType" VALUE="componentEvent"/>
+<attribute NAME="value" VALUE="onHumidityChanged"/>
+</node>
+<node TEXT="" ID="ID_802770345" CREATED="1469446838783" MODIFIED="1469446838783">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="behaviorType" VALUE="componentMethod"/>
+<attribute NAME="value" VALUE="setup"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="self;null;-"/>
+<attribute NAME="extraInfo.attrComment" VALUE="documentation of setup method"/>
+</node>
+<node TEXT="" ID="ID_1916544820" CREATED="1469446838784" MODIFIED="1469446838784">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="behaviorType" VALUE="componentMethod"/>
+<attribute NAME="value" VALUE="loop"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="self;null;-"/>
+</node>
+<node TEXT="" ID="ID_1563712781" CREATED="1469446838785" MODIFIED="1469446838785">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="behaviorType" VALUE="componentMethod"/>
+<attribute NAME="value" VALUE="stop"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="self;null;-"/>
+</node>
+<node TEXT="" ID="ID_804672078" CREATED="1469446838786" MODIFIED="1469446838786">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="behaviorType" VALUE="componentMethod"/>
+<attribute NAME="value" VALUE="getStateAsJson"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="self;null;-,instanceName;null;-"/>
+</node>
+</node>
+</node>
+</node>
+</map>

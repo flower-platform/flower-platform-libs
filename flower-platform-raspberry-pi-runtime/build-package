@@ -1,5 +1,0 @@
-#!/bin/bash
-
-python setup.py bdist_egg
-rm -rf build
-rm -rf *egg-info

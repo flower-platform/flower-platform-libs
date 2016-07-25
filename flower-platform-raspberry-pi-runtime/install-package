@@ -1,4 +1,0 @@
-#!/bin/bash
-
-./build-package
-easy_install dist/*.egg

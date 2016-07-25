@@ -1,6 +1,0 @@
-#!/bin/bash
-
-PACKAGE=$(sed -ne "s/.*name *= *['\"]\([^'\"]*\)['\"] *.*/\1/p" setup.py)
-
-easy_install -m $PACKAGE
-rm -f /usr/local/lib/python2.7/$PACKAGE*
