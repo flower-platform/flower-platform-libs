@@ -24,28 +24,29 @@
 <attribute NAME="configRepositorySets" VALUE="platform-cpp-arduino-ide"/>
 <node TEXT="" POSITION="right" ID="ID_68862567" CREATED="1469014600766" MODIFIED="1469014600766">
 <attribute NAME="nodeType" VALUE="dynamic_default__componentsRoot"/>
-<node TEXT="" ID="ID_852501306" CREATED="1469790628347" MODIFIED="1469790628347">
-<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__NewPing"/>
-<attribute NAME="ping_result" VALUE="0"/>
-<attribute NAME="name" VALUE="newPing"/>
-<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__NewPing"/>
-<attribute NAME="constructorVariant" VALUE="&quot;Construcorul preia 3 parametrii: pinul Trig, pinul Echo si distanta maxima&quot;"/>
-<attribute NAME="constructorArgument.trigger_pin" VALUE="8"/>
-<attribute NAME="constructorArgument.echo_pin" VALUE="7"/>
-<attribute NAME="constructorArgument.max_cm_distance" VALUE="200"/>
-</node>
 <node TEXT="" ID="ID_870510267" CREATED="1469791447133" MODIFIED="1469791447133">
 <attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__Timer"/>
 <attribute NAME="delay" VALUE="20"/>
 <attribute NAME="name" VALUE="timer"/>
 <attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__Timer"/>
 <attribute NAME="autoStart" VALUE="true"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.autoStart" VALUE="true"/>
 <node TEXT="" ID="ID_177923246" CREATED="1469791460580" MODIFIED="1469791460580">
 <attribute NAME="nodeType" VALUE="eventHandler"/>
 <attribute NAME="name" VALUE="onTimer"/>
 <attribute NAME="type" VALUE="eventHandler"/>
-<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;9`r{XJjfzbuqQ2#eSof6&quot; x=&quot;28&quot; y=&quot;10&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;setDistances()&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;d4GIa2byF=H)r4]i8@0?&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;printDistances(distanceIn, &quot;in&quot;)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;5;R%D)Ov/XXAV]yj)`BL&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;printDistances(distanceCm, &quot;cm&quot;)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;9_gn%d_/JtaKF}p87_]f&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;Serial.println(&quot;---------------&quot;)&lt;/field&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;~t!FgG~1t%)GVzbaP!kX&quot; x=&quot;62&quot; y=&quot;47&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;distanceIn&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;RAmMbG5u}!/{%E}+@sIt&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;ultrasonicDistanceSensor.ping_in()&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;+-0#MC.%jv|{;OI]lQw*&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;Serial.print(&quot;Ping: &quot;)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;5e}=X2)?Yrb{I#L|+%|)&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;Serial.print(distanceIn)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;h006s,L_dQj|PX;GFaO@&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;Serial.print(&quot; in               &quot;)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;(D@9r6.kJ*ua[SOwhaNv&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;distanceCm&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;D;P4!7IGdPw|eWy}Y!2`&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;ultrasonicDistanceSensor.ping_cm()&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;L~W^ycb82U-hdMt4iVBD&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;Serial.print(&quot;Ping: &quot;)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;)DR|blj7(;rUG[QREu8Y&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;Serial.print(distanceCm)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;^=CVRg/;]L(^!D=T9,5h&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;Serial.println(&quot; cm&quot;)&lt;/field&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
 </node>
+</node>
+<node TEXT="" ID="ID_96032332" CREATED="1470749533852" MODIFIED="1470749533852">
+<attribute NAME="nodeType" VALUE="dynamic_platform-cpp-arduino-ide__UltrasonicDistanceSensor"/>
+<attribute NAME="constructorArgument.echo_pin" VALUE="7"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="name" VALUE="ultrasonicDistanceSensor"/>
+<attribute NAME="constructorArgument.trigger_pin" VALUE="8"/>
+<attribute NAME="constructorArgument.max_cm_distance" VALUE="200"/>
+<attribute NAME="type" VALUE="dynamic_platform-cpp-arduino-ide__UltrasonicDistanceSensor"/>
 </node>
 </node>
 <node TEXT="" POSITION="right" ID="ID_13262438" CREATED="1469014600767" MODIFIED="1469014600767">
@@ -65,34 +66,6 @@
 </node>
 <node TEXT="" POSITION="right" ID="ID_1843446615" CREATED="1469014600767" MODIFIED="1469014600767">
 <attribute NAME="nodeType" VALUE="dynamic_default__functionsRoot"/>
-<node TEXT="" ID="ID_1416336600" CREATED="1470385149485" MODIFIED="1470385149485">
-<attribute NAME="nodeType" VALUE="function"/>
-<attribute NAME="dataType" VALUE="void"/>
-<attribute NAME="accessibleViaWeb" VALUE="false" OBJECT="java.lang.Boolean|false"/>
-<attribute NAME="name" VALUE="setDistances"/>
-<attribute NAME="type" VALUE="function"/>
-<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;~t!FgG~1t%)GVzbaP!kX&quot; x=&quot;23&quot; y=&quot;48&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;distanceIn&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;RAmMbG5u}!/{%E}+@sIt&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;newPing.ping_in()&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;kh:_;F{R!bS|}xxLO2O7&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;delay(1000);// Wait 100ms between pings (about 10 pings/sec). 29ms should be the shortest delay between pings&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;Q!]aAzuqKpmS5KUg)ci2&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;distanceCm&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;})YD!_I654,t;3Ent+hK&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;newPing.ping_cm()&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
-</node>
-<node TEXT="" ID="ID_1742201503" CREATED="1470385259236" MODIFIED="1470385259236">
-<attribute NAME="nodeType" VALUE="function"/>
-<attribute NAME="dataType" VALUE="void"/>
-<attribute NAME="accessibleViaWeb" VALUE="false" OBJECT="java.lang.Boolean|false"/>
-<attribute NAME="name" VALUE="printDistances"/>
-<attribute NAME="type" VALUE="function"/>
-<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;+-0#MC.%jv|{;OI]lQw*&quot; x=&quot;29&quot; y=&quot;20&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;Serial.print(&quot;Ping: &quot;)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;-WbW#gs_oH6^T8G_:^Jt&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;Serial.print(distance)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;tW;QdGT1JG{3[{Y)j-fw&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;Serial.print(&quot; &quot;)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;|ELEg.Yha^W|+:^a:Q-w&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;Serial.println(type)&lt;/field&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
-<node TEXT="" ID="ID_1555804485" CREATED="1470385397904" MODIFIED="1470385397904">
-<attribute NAME="nodeType" VALUE="parameter"/>
-<attribute NAME="dataType" VALUE="int"/>
-<attribute NAME="name" VALUE="distance"/>
-<attribute NAME="type" VALUE="parameter"/>
-</node>
-<node TEXT="" ID="ID_793874183" CREATED="1470385416651" MODIFIED="1470385416651">
-<attribute NAME="nodeType" VALUE="parameter"/>
-<attribute NAME="dataType" VALUE="char*"/>
-<attribute NAME="name" VALUE="type"/>
-<attribute NAME="type" VALUE="parameter"/>
-</node>
-</node>
 </node>
 </node>
 </map>

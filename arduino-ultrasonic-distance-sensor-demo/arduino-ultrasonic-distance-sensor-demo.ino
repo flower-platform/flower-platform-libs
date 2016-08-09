@@ -2,48 +2,40 @@
 #include <HardwareSerial.h>
 #include <stdbool.h>
 
-#include <NewPing.h>
 #include <Timer.h>
+#include <UltrasonicDistanceSensor.h>
 
 
 class AppGen {
 public: 
 	
-	NewPing newPing;
 	Timer timer;
+	UltrasonicDistanceSensor ultrasonicDistanceSensor;
 
 	int distanceIn;
 	int distanceCm;
-	AppGen() : newPing(8,7,200) {}
-			
-	void setDistances() {
-        distanceIn = newPing.ping_in();
-        delay(1000);// Wait 100ms between pings (about 10 pings/sec). 29ms should be the shortest delay between pings;
-        distanceCm = newPing.ping_cm();
 
-	}
-
-	void printDistances(int distance, char* type) {
-        Serial.print("Ping: ");
-        Serial.print(distance);
-        Serial.print(" ");
-        Serial.println(type);
-
-	}
+	AppGen()
+		: timer(true)
+		, ultrasonicDistanceSensor(8,7,200)
+	{};
 
 	void timer_onTimer(TimerEvent* event) {
-        setDistances();
-        printDistances(distanceIn, "in");
-        printDistances(distanceCm, "cm");
-        Serial.println("---------------");
+        distanceIn = ultrasonicDistanceSensor.ping_in();
+        Serial.print("Ping: ");
+        Serial.print(distanceIn);
+        Serial.print(" in               ");
+        distanceCm = ultrasonicDistanceSensor.ping_cm();
+        Serial.print("Ping: ");
+        Serial.print(distanceCm);
+        Serial.println(" cm");
 
 	}
 
 	void setup() {
-
 		timer.delay = 20;
-		timer.autoStart = true;
 		timer.onTimer = new DelegatingCallback<AppGen, TimerEvent>(this, &AppGen::timer_onTimer); 
+
 
 		timer.setup();
 	}
@@ -51,7 +43,7 @@ public:
 	void loop() {
 		timer.loop();
 	}
-	
+
 };
 
 #include "CustomCode.h"
