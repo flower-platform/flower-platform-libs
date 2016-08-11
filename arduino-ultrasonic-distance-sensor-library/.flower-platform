@@ -28,73 +28,73 @@
 <node TEXT="" POSITION="right" ID="ID_1067458766" CREATED="1470305611865" MODIFIED="1470305611865">
 <attribute NAME="nodeType" VALUE="metamodel"/>
 <attribute NAME="prefix" VALUE="platform-cpp-arduino-ide"/>
-<node TEXT="" ID="ID_991247873" CREATED="1470749511654" MODIFIED="1470749511654">
+<node TEXT="" ID="ID_1885692120" CREATED="1470916738046" MODIFIED="1470916738046">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="typeOverride" VALUE="dynamic_default__componentsRoot"/>
-<node TEXT="" ID="ID_1710498427" CREATED="1470749511655" MODIFIED="1470749511655">
+<node TEXT="" ID="ID_511672592" CREATED="1470916738047" MODIFIED="1470916738047">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="UltrasonicDistanceSensor"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1841551177" CREATED="1470749511654" MODIFIED="1470749511654">
+<node TEXT="" ID="ID_46191454" CREATED="1470916738046" MODIFIED="1470916738046">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="UltrasonicDistanceSensor"/>
-<node TEXT="" ID="ID_368493152" CREATED="1470749511654" MODIFIED="1470749511654">
+<node TEXT="" ID="ID_388234225" CREATED="1470916738046" MODIFIED="1470916738046">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_394010075" CREATED="1470749511655" MODIFIED="1470749511655">
+<node TEXT="" ID="ID_241885481" CREATED="1470916738047" MODIFIED="1470916738047">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="UltrasonicDistanceSensor.h"/>
 </node>
-<node TEXT="" ID="ID_1693980034" CREATED="1470749511655" MODIFIED="1470749511655">
+<node TEXT="" ID="ID_867286251" CREATED="1470916738047" MODIFIED="1470916738047">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="documentation"/>
 </node>
-<node TEXT="" ID="ID_1015479865" CREATED="1470749511656" MODIFIED="1470749511656">
+<node TEXT="" ID="ID_376598479" CREATED="1470916738047" MODIFIED="1470916738047">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="superClass"/>
 <attribute NAME="value" VALUE="NewPing"/>
 </node>
-<node TEXT="" ID="ID_1978301647" CREATED="1470749511656" MODIFIED="1470749511656">
+<node TEXT="" ID="ID_357186516" CREATED="1470916738047" MODIFIED="1470916738047">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE=""/>
 <attribute NAME="extraInfo.PROP_CONSTRUCTOR_VARIANT" VALUE="Default"/>
 <attribute NAME="extraInfo.PROP_IS_CONSTRUCTOR" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
-<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="trigger_pin;uint8_t;-,echo_pin;uint8_t;-,max_cm_distance;int;-"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="trigger_pin;uint8_t;-;null,echo_pin;uint8_t;-;null,max_cm_distance;int;-;null"/>
 <attribute NAME="behaviorType" VALUE="componentMethod"/>
 <attribute NAME="value" VALUE="UltrasonicDistanceSensor"/>
 </node>
-<node TEXT="" ID="ID_1341101969" CREATED="1470749511656" MODIFIED="1470749511656">
+<node TEXT="" ID="ID_1842718253" CREATED="1470916738047" MODIFIED="1470916738047">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="int"/>
 <attribute NAME="extraInfo.PROP_IS_CONSTRUCTOR" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="extraInfo.attrComment" VALUE="Send a ping and get the echo time (in microseconds) as a result. [max_cm_distance] allows you to optionally set a new max distance."/>
-<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="max_cm_distance;int;-"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="max_cm_distance;int;-;0"/>
 <attribute NAME="behaviorType" VALUE="componentMethod"/>
 <attribute NAME="value" VALUE="ping"/>
 </node>
-<node TEXT="" ID="ID_1991811202" CREATED="1470749511656" MODIFIED="1470749511656">
+<node TEXT="" ID="ID_1807810054" CREATED="1470916738049" MODIFIED="1470916738049">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
-<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="long "/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE=""/>
 <attribute NAME="extraInfo.PROP_IS_CONSTRUCTOR" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="extraInfo.attrComment" VALUE="Send a ping and get the distance in whole inches. [max_cm_distance] allows you to optionally set a new max distance."/>
-<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="max_cm_distance;int;-"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="max_cm_distance;int;-;0"/>
 <attribute NAME="behaviorType" VALUE="componentMethod"/>
 <attribute NAME="value" VALUE="ping_cm"/>
 </node>
-<node TEXT="" ID="ID_85626107" CREATED="1470749511656" MODIFIED="1470749511656">
+<node TEXT="" ID="ID_132468001" CREATED="1470916738049" MODIFIED="1470916738049">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
-<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE="long "/>
+<attribute NAME="extraInfo.PROP_TYPE_NAME" VALUE=""/>
 <attribute NAME="extraInfo.PROP_IS_CONSTRUCTOR" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="extraInfo.attrComment" VALUE="Send a ping and get the distance in whole centimeters. [max_cm_distance] allows you to optionally set a new max distance."/>
-<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="max_cm_distance;int;-"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="max_cm_distance;int;-;0"/>
 <attribute NAME="behaviorType" VALUE="componentMethod"/>
 <attribute NAME="value" VALUE="ping_in"/>
 </node>
