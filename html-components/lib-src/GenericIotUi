@@ -5,8 +5,16 @@ PROPERTIES_END
 	var ui = angular.module("ui");
 	ui.controller("GenericComponentCtrl", ['$scope', '$http', '$interval', '$location', function($scope, $http, $interval, $location) {		
 		$scope.commands = [];		
-		$http.get($scope.getBoardUrl("getDescriptors")).success(function(response) {
-			$scope.descriptors = response;
+		$http.get($scope.getBoardUrl("getCommands")).success(function(response) {
+			var commands = response;
+			for (var i = 0; i < commands.length; i++) {
+				$scope.commands[i]= {};
+				command = commands[i];
+				if (command.parameters) {
+					$scope.commands[i].parameters= command.parameters;	
+				}
+				$scope.commands[i].name = command.command;
+			}
 		})
 	}]);
 	ui.directive('command', function() {
@@ -46,7 +54,8 @@ PROPERTIES_END
 								<div ng-if="!parameterArray"  style="width:91%; padding-left: 9%; padding-bottom:3%">\
 									<button class="btn btn-block btn-lg" type="button" ng-click="invokeCommand()">{{label}}</button>\
 								</div>\
-							</div>'							
+							</div>\
+							<p ng-if="commandResult">Result: {{commandResult}} </p>'				
 		directive.link  =  function (scope, element, attrs) { 
 			if (attrs.parameters) {
 				commandParameters =  attrs.parameters.split(';');
@@ -72,7 +81,9 @@ PROPERTIES_END
 				return result;
 			}
 			$scope.invokeCommand = function() {
-				$scope.invoke()($scope.name + createParamsStringForUrl($scope.parameterArray));
+				$scope.invoke()($scope.name + createParamsStringForUrl($scope.parameterArray)).success(function(response) {
+					$scope.commandResult = response.__RESULT;
+				});
 			}
 		}]
 
@@ -97,8 +108,8 @@ PROPERTIES_END
 			<div class="panel panel-primary text-center">
 				<div class="panel-heading">Commands</div>
 				<div class="panel-body">
-					<div ng-repeat = "command in descriptors.commands">
-						<command name="{{command.command}}" label="{{camelCaseToTextWithSpaces(command.label)}}" parameters="{{command.parameters}}" func="invoke">
+					<div ng-repeat = "command in commands">
+						<command name="{{command.name}}" label="{{camelCaseToTextWithSpaces(command.name)}}" parameters="{{command.parameters}}" func="invoke">
 						</command>
 					</div>
 				</div>
