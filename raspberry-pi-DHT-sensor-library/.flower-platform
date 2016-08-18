@@ -28,84 +28,92 @@
 <node TEXT="" POSITION="right" ID="ID_343502764" CREATED="1469445827374" MODIFIED="1469445827374">
 <attribute NAME="nodeType" VALUE="metamodel"/>
 <attribute NAME="prefix" VALUE="platform-python-linux"/>
-<node TEXT="" ID="ID_727069032" CREATED="1469446838768" MODIFIED="1469446838768">
+<node TEXT="" ID="ID_1669850216" CREATED="1471509271117" MODIFIED="1471509271117">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="typeOverride" VALUE="dynamic_default__componentsRoot"/>
-<node TEXT="" ID="ID_1140047129" CREATED="1469446838772" MODIFIED="1469446838772">
+<node TEXT="" ID="ID_205294326" CREATED="1471509271119" MODIFIED="1471509271119">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="DHTSensor"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1761425837" CREATED="1469446838770" MODIFIED="1469446838770">
+<node TEXT="" ID="ID_1505105953" CREATED="1471509271118" MODIFIED="1471509271118">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="DHTSensor"/>
-<node TEXT="" ID="ID_1452611093" CREATED="1469446838771" MODIFIED="1469446838771">
+<node TEXT="" ID="ID_1930202883" CREATED="1471509271118" MODIFIED="1471509271118">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_153530025" CREATED="1469446838773" MODIFIED="1469446838773">
+<node TEXT="" ID="ID_805855555" CREATED="1471509271119" MODIFIED="1471509271119">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="Adafruit_DHT/DHTSensor.py"/>
 </node>
-<node TEXT="" ID="ID_713480872" CREATED="1469446838775" MODIFIED="1469446838775">
+<node TEXT="" ID="ID_1054113391" CREATED="1471509271120" MODIFIED="1471509271120">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="documentation"/>
 </node>
-<node TEXT="" ID="ID_698897776" CREATED="1469446838777" MODIFIED="1469446838777">
+<node TEXT="" ID="ID_1515389502" CREATED="1471509271120" MODIFIED="1471509271120">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="name" VALUE="contributesToState"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_989546028" CREATED="1469446838778" MODIFIED="1469446838778">
-<attribute NAME="nodeType" VALUE="propertyDescriptor"/>
-<attribute NAME="name" VALUE="pin"/>
-<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
-</node>
-<node TEXT="" ID="ID_1191553914" CREATED="1469446838779" MODIFIED="1469446838779">
+<node TEXT="" ID="ID_281572571" CREATED="1471509271121" MODIFIED="1471509271121">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="name" VALUE="pollInterval"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 </node>
-<node TEXT="" ID="ID_1995790445" CREATED="1469446838780" MODIFIED="1469446838780">
+<node TEXT="" ID="ID_25892830" CREATED="1471509271122" MODIFIED="1471509271122">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="componentEvent"/>
 <attribute NAME="value" VALUE="onTemperatureChanged"/>
 </node>
-<node TEXT="" ID="ID_991159988" CREATED="1469446838781" MODIFIED="1469446838781">
+<node TEXT="" ID="ID_670753841" CREATED="1471509271122" MODIFIED="1471509271122">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="componentEvent"/>
 <attribute NAME="value" VALUE="onHumidityChanged"/>
 </node>
-<node TEXT="" ID="ID_802770345" CREATED="1469446838783" MODIFIED="1469446838783">
+<node TEXT="" ID="ID_415813102" CREATED="1471509271122" MODIFIED="1471509271122">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="extraInfo.PROP_IS_CONSTRUCTOR" VALUE="true" OBJECT="java.lang.Boolean|true"/>
+<attribute NAME="behaviorType" VALUE="componentMethod"/>
+<attribute NAME="extraInfo.PROP_CONSTRUCTOR_VARIANT" VALUE="Default"/>
+<attribute NAME="value" VALUE="__init__"/>
+<attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="self;null;-;null,pin;null;-;null"/>
+</node>
+<node TEXT="" ID="ID_350579866" CREATED="1471509271123" MODIFIED="1471509271123">
+<attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="extraInfo.PROP_IS_CONSTRUCTOR" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="behaviorType" VALUE="componentMethod"/>
 <attribute NAME="value" VALUE="setup"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
-<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="self;null;-"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="self;null;-;null"/>
 <attribute NAME="extraInfo.attrComment" VALUE="documentation of setup method"/>
 </node>
-<node TEXT="" ID="ID_1916544820" CREATED="1469446838784" MODIFIED="1469446838784">
+<node TEXT="" ID="ID_89898928" CREATED="1471509271123" MODIFIED="1471509271123">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="extraInfo.PROP_IS_CONSTRUCTOR" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="behaviorType" VALUE="componentMethod"/>
 <attribute NAME="value" VALUE="loop"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
-<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="self;null;-"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="self;null;-;null"/>
 </node>
-<node TEXT="" ID="ID_1563712781" CREATED="1469446838785" MODIFIED="1469446838785">
+<node TEXT="" ID="ID_164472344" CREATED="1471509271124" MODIFIED="1471509271124">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="extraInfo.PROP_IS_CONSTRUCTOR" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="behaviorType" VALUE="componentMethod"/>
 <attribute NAME="value" VALUE="stop"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
-<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="self;null;-"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="self;null;-;null"/>
 </node>
-<node TEXT="" ID="ID_804672078" CREATED="1469446838786" MODIFIED="1469446838786">
+<node TEXT="" ID="ID_71147629" CREATED="1471509271125" MODIFIED="1471509271125">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
+<attribute NAME="extraInfo.PROP_IS_CONSTRUCTOR" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="behaviorType" VALUE="componentMethod"/>
 <attribute NAME="value" VALUE="getStateAsJson"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
-<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="self;null;-,instanceName;null;-"/>
+<attribute NAME="extraInfo.PROP_PARAMETERS" VALUE="self;null;-;null,instanceName;null;-;null"/>
 </node>
 </node>
 </node>
