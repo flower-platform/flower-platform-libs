@@ -17,7 +17,7 @@ public:
 
 	AppGen()
 		: timer(true)
-		, ultrasonicDistanceSensor(8,7,200)
+		, ultrasonicDistanceSensor(8, 7, 200)
 	{};
 
 	void timer_onTimer(TimerEvent* event) {
@@ -31,13 +31,13 @@ public:
         Serial.println(" cm");
 
 	}
+	
 
 	void setup() {
 		timer.delay = 20;
 		timer.onTimer = new DelegatingCallback<AppGen, TimerEvent>(this, &AppGen::timer_onTimer); 
 
 
-		timer.setup();
 	}
 
 	void loop() {
@@ -48,13 +48,14 @@ public:
 
 #include "CustomCode.h"
 
-App app;
+App* app;
 
 void setup() {
 	Serial.begin(115200);
-	app.setup();
+	app = new App();
+	app->setup();
 }
 
 void loop() {
-	app.loop();
+	app->loop();
 }
