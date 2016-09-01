@@ -1,0 +1,65 @@
+<map version="freeplane 1.3.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="New Mindmap" ID="ID_1768020923" CREATED="1471958226102" MODIFIED="1471958226102"><hook NAME="MapStyle">
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
+<stylenode LOCALIZED_TEXT="default" COLOR="#000000" STYLE="fork" MAX_WIDTH="600">
+<font NAME="SansSerif" SIZE="12" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="1"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.note"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<attribute NAME="nodeType" VALUE="dynamic_root"/>
+<attribute NAME="natures" VALUE="mainModel,dynamicRepositoryType"/>
+<attribute NAME="configRepositorySets" VALUE="platform-python-linux"/>
+<attribute NAME="repositoryType" VALUE="raspberry-pi"/>
+<node TEXT="" POSITION="right" ID="ID_1471764467" CREATED="1471958226110" MODIFIED="1471958226110">
+<attribute NAME="nodeType" VALUE="dynamic_default__componentsRoot"/>
+<node TEXT="" ID="ID_1511931061" CREATED="1471958277874" MODIFIED="1471958277874">
+<attribute NAME="nodeType" VALUE="dynamic_platform-python-linux__Timer"/>
+<attribute NAME="delay" VALUE="20"/>
+<attribute NAME="name" VALUE="timer1"/>
+<attribute NAME="type" VALUE="dynamic_platform-python-linux__Timer"/>
+<attribute NAME="autoStart" VALUE="True"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="constructorArgument.autoStart" VALUE="True"/>
+<node TEXT="" ID="ID_1788269276" CREATED="1471958355708" MODIFIED="1471958355708">
+<attribute NAME="nodeType" VALUE="eventHandler"/>
+<attribute NAME="name" VALUE="onTimer"/>
+<attribute NAME="type" VALUE="eventHandler"/>
+<attribute NAME="blocklyContent" VALUE="&lt;xml xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;block type=&quot;fp_global_set&quot; id=&quot;r_d8dn5=Mze`^3VK3%uV&quot; x=&quot;198&quot; y=&quot;57&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;self.distance&lt;/field&gt;&lt;value name=&quot;VALUE&quot;&gt;&lt;block type=&quot;fp_global_function_call_with_param_and_return&quot; id=&quot;I5;O9xcV`PfREyo=67Xr&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;self.ultrasonicDistanceSensor1.distance&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;t5l{0o-#wwWX0NO#ZkOR&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;print(&quot;Ping: &quot;)&lt;/field&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call_with_param&quot; id=&quot;T@2XZasE(_{`j(E6XR]l&quot;&gt;&lt;mutation&gt;&lt;arg name=&quot;x&quot;&gt;&lt;/arg&gt;&lt;/mutation&gt;&lt;field name=&quot;VAR&quot;&gt;print&lt;/field&gt;&lt;value name=&quot;ARG0&quot;&gt;&lt;block type=&quot;fp_global_get&quot; id=&quot;Bocmi1__RDl]jAQY%h}~&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;self.distance&lt;/field&gt;&lt;/block&gt;&lt;/value&gt;&lt;next&gt;&lt;block type=&quot;fp_global_function_call&quot; id=&quot;W5=c9+?ME3KXJRYOCZPN&quot;&gt;&lt;field name=&quot;VAR&quot;&gt;print(&quot;cm&quot;)&lt;/field&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/next&gt;&lt;/block&gt;&lt;/xml&gt;"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1368067975" CREATED="1472045447929" MODIFIED="1472045447929">
+<attribute NAME="nodeType" VALUE="dynamic_platform-python-linux__UltrasonicDistanceSensor"/>
+<attribute NAME="constructorArgument.echo_pin" VALUE="23"/>
+<attribute NAME="constructorVariant" VALUE="Default"/>
+<attribute NAME="name" VALUE="ultrasonicDistanceSensor1"/>
+<attribute NAME="constructorArgument.trigger_pin" VALUE="24"/>
+<attribute NAME="type" VALUE="dynamic_platform-python-linux__UltrasonicDistanceSensor"/>
+</node>
+</node>
+<node TEXT="" POSITION="right" ID="ID_751137611" CREATED="1471958226111" MODIFIED="1471958226111">
+<attribute NAME="nodeType" VALUE="dynamic_default__variablesRoot"/>
+<node TEXT="" ID="ID_1432483067" CREATED="1471958424322" MODIFIED="1471958424322">
+<attribute NAME="nodeType" VALUE="variable"/>
+<attribute NAME="dataType" VALUE="int"/>
+<attribute NAME="name" VALUE="distance"/>
+<attribute NAME="type" VALUE="variable"/>
+</node>
+</node>
+<node TEXT="" POSITION="right" ID="ID_1900737890" CREATED="1471958226111" MODIFIED="1471958226111">
+<attribute NAME="nodeType" VALUE="dynamic_default__functionsRoot"/>
+</node>
+</node>
+</map>
