@@ -28,12 +28,13 @@ PROPERTIES_END
 		};				
 		directive.template = 
 							'<div ng-if="parameterArray" class="panel panel-default">\
-								<form class="form-horizontal" role="form">\
+								<div ng-form="form1" class="form-horizontal" ng-class="{\'has-error\': form1.parameter.$error.maxlength}">\
 									<div ng-repeat="parameter in parameterArray track by $index">\
 										<div class="form-group" ng-if= "parameter.type != \'boolean\'">\
 											<label for="{{parameter.name}}" class="col-md-5 col-sm-5 col-xs-5 control-label">{{parameter.name}}</label>\
 											<div class="col-md-6 col-sm-6 col-xs-6">\
-												<input ng-model="parameterArray[$index].value" type="text" class="form-control" id="{{parameter.name}}" placeholder="Enter value of {{parameter.name}}" />\
+												<input name="parameter" ng-model="parameterArray[$index].value" type="text" class="form-control" id="{{parameter.name}}" ng-maxlength="32" placeholder="Enter value of {{parameter.name}}" />\
+												<div class="help-block" ng-messages="form1.parameter.$error" ng-show="!form1.parameter.$valid" role="alert"><p style="font-size: 15px; float: right" >Maximum 32 characters allowed!</p></div>\
 											</div>\
 										</div>\
 										<div ng-if="parameter.type == \'boolean\'" class="form-group">\
@@ -48,7 +49,7 @@ PROPERTIES_END
 											<button class="btn btn-block btn-lg" type="button" ng-click="invokeCommand()">{{label}}</button>\
 										</div>\
 									</div>\
-								</form>\
+								</div>\
 							</div>\
 							<div class="form-group">\
 								<div ng-if="!parameterArray"  style="width:91%; padding-left: 9%; padding-bottom:3%">\
