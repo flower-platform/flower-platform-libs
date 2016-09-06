@@ -28,13 +28,13 @@ PROPERTIES_END
 		};				
 		directive.template = 
 							'<div ng-if="parameterArray" class="panel panel-default">\
-								<div ng-form="form1" class="form-horizontal" ng-class="{\'has-error\': form1.parameter.$error.maxlength}">\
+								<div ng-form="form1" class="form-horizontal">\
 									<div ng-repeat="parameter in parameterArray track by $index">\
-										<div class="form-group" ng-if= "parameter.type != \'boolean\'">\
+										<div class="form-group" ng-if= "parameter.type != \'boolean\'" ng-class="{\'has-error\': form1.{{parameter.name}}.$error.maxlength}">\
 											<label for="{{parameter.name}}" class="col-md-5 col-sm-5 col-xs-5 control-label">{{parameter.name}}</label>\
 											<div class="col-md-6 col-sm-6 col-xs-6">\
-												<input name="parameter" ng-model="parameterArray[$index].value" type="text" class="form-control" id="{{parameter.name}}" ng-maxlength="32" placeholder="Enter value of {{parameter.name}}" />\
-												<div class="help-block" ng-messages="form1.parameter.$error" ng-show="!form1.parameter.$valid" role="alert"><p style="font-size: 15px; float: right" >Maximum 32 characters allowed!</p></div>\
+												<input name="{{parameter.name}}" ng-model="parameterArray[$index].value" type="text" class="form-control" id="{{parameter.name}}" ng-maxlength="32" placeholder="Enter value of {{parameter.name}}"/>\
+												<div class="help-block" ng-messages="form1.{{parameter.name}}.$error" ng-messages="form1.parameter.$error" ng-show="!form1.{{parameter.name}}.$valid" role="alert"><p style="font-size: 15px; float: right" >Maximum 32 characters allowed!</p></div>\
 											</div>\
 										</div>\
 										<div ng-if="parameter.type == \'boolean\'" class="form-group">\
@@ -56,7 +56,7 @@ PROPERTIES_END
 									<button class="btn btn-block btn-lg" type="button" ng-click="invokeCommand()">{{label}}</button>\
 								</div>\
 							</div>\
-							<p ng-if="commandResult">Result: {{commandResult}} </p>'				
+							<p ng-if="commandResult">Result: {{commandResult}} </p>'			
 		directive.link  =  function (scope, element, attrs) { 
 			if (attrs.parameters) {
 				commandParameters =  attrs.parameters.split(';');
