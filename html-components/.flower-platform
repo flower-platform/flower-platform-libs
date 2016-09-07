@@ -57,540 +57,540 @@
 <node TEXT="" POSITION="right" ID="ID_46521707" CREATED="1463583394644" MODIFIED="1463583394644">
 <attribute NAME="nodeType" VALUE="metamodel"/>
 <attribute NAME="prefix" VALUE="platform-html"/>
-<node TEXT="" ID="ID_686740585" CREATED="1473160248177" MODIFIED="1473160248177">
+<node TEXT="" ID="ID_1824550352" CREATED="1473235743190" MODIFIED="1473235743190">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="category.hasChildren_htmlComponent"/>
-<node TEXT="" ID="ID_383253780" CREATED="1473160248178" MODIFIED="1473160248178">
+<node TEXT="" ID="ID_384700571" CREATED="1473235743191" MODIFIED="1473235743191">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="button"/>
 </node>
-<node TEXT="" ID="ID_1175147370" CREATED="1473160248178" MODIFIED="1473160248178">
+<node TEXT="" ID="ID_922822260" CREATED="1473235743192" MODIFIED="1473235743192">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="blank_line"/>
 </node>
-<node TEXT="" ID="ID_710837050" CREATED="1473160248178" MODIFIED="1473160248178">
+<node TEXT="" ID="ID_914079838" CREATED="1473235743192" MODIFIED="1473235743192">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="paragraph"/>
 </node>
-<node TEXT="" ID="ID_1294291578" CREATED="1473160248178" MODIFIED="1473160248178">
+<node TEXT="" ID="ID_1256176048" CREATED="1473235743194" MODIFIED="1473235743194">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="GenericIotUi"/>
 </node>
-<node TEXT="" ID="ID_1415318594" CREATED="1473160248179" MODIFIED="1473160248179">
+<node TEXT="" ID="ID_1029846211" CREATED="1473235743195" MODIFIED="1473235743195">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="vbox"/>
 </node>
-<node TEXT="" ID="ID_1171041638" CREATED="1473160248179" MODIFIED="1473160248179">
+<node TEXT="" ID="ID_1460137097" CREATED="1473235743195" MODIFIED="1473235743195">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="hbox"/>
 </node>
-<node TEXT="" ID="ID_1764498430" CREATED="1473160248179" MODIFIED="1473160248179">
+<node TEXT="" ID="ID_947906981" CREATED="1473235743196" MODIFIED="1473235743196">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="label"/>
 </node>
-<node TEXT="" ID="ID_1829357984" CREATED="1473160248179" MODIFIED="1473160248179">
+<node TEXT="" ID="ID_1076295644" CREATED="1473235743198" MODIFIED="1473235743198">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="row"/>
 </node>
-<node TEXT="" ID="ID_1375916359" CREATED="1473160248179" MODIFIED="1473160248179">
+<node TEXT="" ID="ID_936316006" CREATED="1473235743199" MODIFIED="1473235743199">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="panel"/>
 </node>
-<node TEXT="" ID="ID_1575266712" CREATED="1473160248180" MODIFIED="1473160248180">
+<node TEXT="" ID="ID_791132473" CREATED="1473235743199" MODIFIED="1473235743199">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="span"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1096936897" CREATED="1473160248180" MODIFIED="1473160248180">
+<node TEXT="" ID="ID_925674725" CREATED="1473235743204" MODIFIED="1473235743204">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="category.hasChildren_rowChild"/>
-<node TEXT="" ID="ID_1846242899" CREATED="1473160248180" MODIFIED="1473160248180">
+<node TEXT="" ID="ID_432633759" CREATED="1473235743205" MODIFIED="1473235743205">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="column"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1896648358" CREATED="1473160248181" MODIFIED="1473160248181">
+<node TEXT="" ID="ID_186344612" CREATED="1473235743207" MODIFIED="1473235743207">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="typeOverride" VALUE="dynamic_default__componentsRoot"/>
-<node TEXT="" ID="ID_1738314434" CREATED="1473160248182" MODIFIED="1473160248182">
+<node TEXT="" ID="ID_249655460" CREATED="1473235743208" MODIFIED="1473235743208">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="button"/>
 </node>
-<node TEXT="" ID="ID_1489903854" CREATED="1473160248186" MODIFIED="1473160248186">
+<node TEXT="" ID="ID_74012247" CREATED="1473235743262" MODIFIED="1473235743262">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="blank_line"/>
 </node>
-<node TEXT="" ID="ID_1257960661" CREATED="1473160248188" MODIFIED="1473160248188">
+<node TEXT="" ID="ID_1558198015" CREATED="1473235743265" MODIFIED="1473235743265">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="paragraph"/>
 </node>
-<node TEXT="" ID="ID_1346914818" CREATED="1473160248191" MODIFIED="1473160248191">
+<node TEXT="" ID="ID_1369971760" CREATED="1473235743268" MODIFIED="1473235743268">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="GenericIotUi"/>
 </node>
-<node TEXT="" ID="ID_233060482" CREATED="1473160248194" MODIFIED="1473160248194">
+<node TEXT="" ID="ID_22137437" CREATED="1473235743273" MODIFIED="1473235743273">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="vbox"/>
 </node>
-<node TEXT="" ID="ID_1169451769" CREATED="1473160248200" MODIFIED="1473160248200">
+<node TEXT="" ID="ID_757397536" CREATED="1473235743277" MODIFIED="1473235743277">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="hbox"/>
 </node>
-<node TEXT="" ID="ID_1754216262" CREATED="1473160248203" MODIFIED="1473160248203">
+<node TEXT="" ID="ID_1071227084" CREATED="1473235743282" MODIFIED="1473235743282">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="column"/>
 </node>
-<node TEXT="" ID="ID_249692199" CREATED="1473160248207" MODIFIED="1473160248207">
+<node TEXT="" ID="ID_226255249" CREATED="1473235743289" MODIFIED="1473235743289">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="label"/>
 </node>
-<node TEXT="" ID="ID_490044549" CREATED="1473160248212" MODIFIED="1473160248212">
+<node TEXT="" ID="ID_1972773783" CREATED="1473235743300" MODIFIED="1473235743300">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="row"/>
 </node>
-<node TEXT="" ID="ID_543567234" CREATED="1473160248219" MODIFIED="1473160248219">
+<node TEXT="" ID="ID_932278514" CREATED="1473235743305" MODIFIED="1473235743305">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="panel"/>
 </node>
-<node TEXT="" ID="ID_91600358" CREATED="1473160248229" MODIFIED="1473160248229">
+<node TEXT="" ID="ID_371582912" CREATED="1473235743313" MODIFIED="1473235743313">
 <attribute NAME="nodeType" VALUE="addChildDescriptor"/>
 <attribute NAME="childType" VALUE="span"/>
 </node>
 </node>
-<node TEXT="" ID="ID_886784808" CREATED="1473160248181" MODIFIED="1473160248181">
+<node TEXT="" ID="ID_794018049" CREATED="1473235743207" MODIFIED="1473235743207">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="button"/>
-<node TEXT="" ID="ID_1330386316" CREATED="1473160248182" MODIFIED="1473160248182">
+<node TEXT="" ID="ID_1169639418" CREATED="1473235743207" MODIFIED="1473235743207">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1240606557" CREATED="1473160248183" MODIFIED="1473160248183">
+<node TEXT="" ID="ID_498463202" CREATED="1473235743208" MODIFIED="1473235743208">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="button"/>
 </node>
-<node TEXT="" ID="ID_113571624" CREATED="1473160248183" MODIFIED="1473160248183">
+<node TEXT="" ID="ID_1114914467" CREATED="1473235743211" MODIFIED="1473235743211">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="documentation"/>
 <attribute NAME="value" VALUE="This is a button"/>
 </node>
-<node TEXT="" ID="ID_776880126" CREATED="1473160248183" MODIFIED="1473160248183">
+<node TEXT="" ID="ID_1876383874" CREATED="1473235743252" MODIFIED="1473235743252">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="disabled"/>
 </node>
-<node TEXT="" ID="ID_1048057198" CREATED="1473160248184" MODIFIED="1473160248184">
+<node TEXT="" ID="ID_391337414" CREATED="1473235743253" MODIFIED="1473235743253">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="width"/>
 </node>
-<node TEXT="" ID="ID_473743403" CREATED="1473160248184" MODIFIED="1473160248184">
+<node TEXT="" ID="ID_1751138094" CREATED="1473235743253" MODIFIED="1473235743253">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="space right"/>
 </node>
-<node TEXT="" ID="ID_1656720694" CREATED="1473160248184" MODIFIED="1473160248184">
+<node TEXT="" ID="ID_161455944" CREATED="1473235743253" MODIFIED="1473235743253">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="space left"/>
 </node>
-<node TEXT="" ID="ID_1963154910" CREATED="1473160248184" MODIFIED="1473160248184">
+<node TEXT="" ID="ID_1723482882" CREATED="1473235743253" MODIFIED="1473235743253">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="text"/>
 </node>
-<node TEXT="" ID="ID_1040582633" CREATED="1473160248185" MODIFIED="1473160248185">
+<node TEXT="" ID="ID_1857612362" CREATED="1473235743260" MODIFIED="1473235743260">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="componentTemplate"/>
 <attribute NAME="value" VALUE="&lt;button  class=&quot;btn btn-block btn-lg&quot; type=&quot;button&quot; disabled=&quot;$fp.disabled&quot; style=&quot;width: $fp.width; margin-right: $fp.space right; margin-left: $fp.space left;&quot;&gt;$fp.text&lt;/button&gt;"/>
 </node>
-<node TEXT="" ID="ID_1318583671" CREATED="1473160248185" MODIFIED="1473160248185">
+<node TEXT="" ID="ID_1713311425" CREATED="1473235743260" MODIFIED="1473235743260">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="angularModulesToImport"/>
 <attribute NAME="value" VALUE="flower-platform-libs/html-components/downloaded-files/buttons.js"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1016316080" CREATED="1473160248186" MODIFIED="1473160248186">
+<node TEXT="" ID="ID_1153229730" CREATED="1473235743261" MODIFIED="1473235743261">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="blank_line"/>
-<node TEXT="" ID="ID_1241611674" CREATED="1473160248186" MODIFIED="1473160248186">
+<node TEXT="" ID="ID_914364558" CREATED="1473235743262" MODIFIED="1473235743262">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1900640020" CREATED="1473160248186" MODIFIED="1473160248186">
+<node TEXT="" ID="ID_488654313" CREATED="1473235743263" MODIFIED="1473235743263">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="blank_line"/>
 </node>
-<node TEXT="" ID="ID_425761716" CREATED="1473160248187" MODIFIED="1473160248187">
+<node TEXT="" ID="ID_681243907" CREATED="1473235743263" MODIFIED="1473235743263">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="documentation"/>
 </node>
-<node TEXT="" ID="ID_997385043" CREATED="1473160248187" MODIFIED="1473160248187">
+<node TEXT="" ID="ID_364093215" CREATED="1473235743264" MODIFIED="1473235743264">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="componentTemplate"/>
 <attribute NAME="value" VALUE="&lt;br/&gt;"/>
 </node>
-<node TEXT="" ID="ID_198711412" CREATED="1473160248187" MODIFIED="1473160248187">
+<node TEXT="" ID="ID_955424039" CREATED="1473235743264" MODIFIED="1473235743264">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="filesDownloaded"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1695231799" CREATED="1473160248188" MODIFIED="1473160248188">
+<node TEXT="" ID="ID_702738700" CREATED="1473235743264" MODIFIED="1473235743264">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="paragraph"/>
-<node TEXT="" ID="ID_1024101761" CREATED="1473160248188" MODIFIED="1473160248188">
+<node TEXT="" ID="ID_1695735989" CREATED="1473235743265" MODIFIED="1473235743265">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1281626981" CREATED="1473160248189" MODIFIED="1473160248189">
+<node TEXT="" ID="ID_1145799952" CREATED="1473235743265" MODIFIED="1473235743265">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="paragraph"/>
 </node>
-<node TEXT="" ID="ID_496157636" CREATED="1473160248189" MODIFIED="1473160248189">
+<node TEXT="" ID="ID_665753821" CREATED="1473235743266" MODIFIED="1473235743266">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="documentation"/>
 </node>
-<node TEXT="" ID="ID_9573197" CREATED="1473160248189" MODIFIED="1473160248189">
+<node TEXT="" ID="ID_982359075" CREATED="1473235743266" MODIFIED="1473235743266">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="content"/>
 </node>
-<node TEXT="" ID="ID_585330192" CREATED="1473160248190" MODIFIED="1473160248190">
+<node TEXT="" ID="ID_106379631" CREATED="1473235743266" MODIFIED="1473235743266">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="componentTemplate"/>
 <attribute NAME="value" VALUE="&lt;p&gt;$fp.content&lt;/p&gt;"/>
 </node>
-<node TEXT="" ID="ID_221243963" CREATED="1473160248190" MODIFIED="1473160248190">
+<node TEXT="" ID="ID_745449257" CREATED="1473235743267" MODIFIED="1473235743267">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="filesDownloaded"/>
 </node>
 </node>
-<node TEXT="" ID="ID_4989417" CREATED="1473160248190" MODIFIED="1473160248190">
+<node TEXT="" ID="ID_1704711970" CREATED="1473235743267" MODIFIED="1473235743267">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="GenericIotUi"/>
-<node TEXT="" ID="ID_855184998" CREATED="1473160248191" MODIFIED="1473160248191">
+<node TEXT="" ID="ID_583771018" CREATED="1473235743268" MODIFIED="1473235743268">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1767413789" CREATED="1473160248191" MODIFIED="1473160248191">
+<node TEXT="" ID="ID_998454301" CREATED="1473235743268" MODIFIED="1473235743268">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="GenericIotUi"/>
 </node>
-<node TEXT="" ID="ID_1970814197" CREATED="1473160248192" MODIFIED="1473160248192">
+<node TEXT="" ID="ID_1851824532" CREATED="1473235743269" MODIFIED="1473235743269">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="documentation"/>
 </node>
-<node TEXT="" ID="ID_1931810403" CREATED="1473160248192" MODIFIED="1473160248192">
+<node TEXT="" ID="ID_386074897" CREATED="1473235743269" MODIFIED="1473235743269">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="componentTemplate"/>
-<attribute NAME="value" VALUE="&lt;script&gt;&#xd;&#xa;&#x9;var ui = angular.module(&quot;ui&quot;);&#xd;&#xa;&#x9;ui.controller(&quot;GenericComponentCtrl&quot;, [&apos;$scope&apos;, &apos;$http&apos;, &apos;$interval&apos;, &apos;$location&apos;, function($scope, $http, $interval, $location) {&#x9;&#x9;&#xd;&#xa;&#x9;&#x9;$scope.commands = [];&#x9;&#x9;&#xd;&#xa;&#x9;&#x9;$http.get($scope.getBoardUrl(&quot;getCommands&quot;)).success(function(response) {&#xd;&#xa;&#x9;&#x9;&#x9;var commands = response;&#xd;&#xa;&#x9;&#x9;&#x9;for (var i = 0; i &lt; commands.length; i++) {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;$scope.commands[i]= {};&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;command = commands[i];&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;if (command.parameters) {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;$scope.commands[i].parameters= command.parameters;&#x9;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;}&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;$scope.commands[i].name = command.command;&#xd;&#xa;&#x9;&#x9;&#x9;}&#xd;&#xa;&#x9;&#x9;})&#xd;&#xa;&#x9;}]);&#xd;&#xa;&#x9;ui.directive(&apos;command&apos;, function() {&#xd;&#xa;&#x9;&#x9;var directive = {};&#x9;&#xd;&#xa;&#x9;&#x9;directive.restrict = &apos;E&apos;;&#xd;&#xa;&#x9;&#x9;directive.scope = {&#xd;&#xa;&#x9;&#x9;&#x9;label: &apos;@&apos;,&#xd;&#xa;&#x9;&#x9;&#x9;name: &apos;@&apos;,&#xd;&#xa;&#x9;&#x9;&#x9;parameters: &apos;@&apos;,&#xd;&#xa;&#x9;&#x9;&#x9;invoke: &apos;&amp;func&apos;&#x9;&#x9;&#xd;&#xa;&#x9;&#x9;};&#x9;&#x9;&#x9;&#x9;&#xd;&#xa;&#x9;&#x9;directive.template = &#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&apos;&lt;div ng-if=&quot;parameterArray&quot; class=&quot;panel panel-default&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div ng-form=&quot;form1&quot; class=&quot;form-horizontal&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div ng-repeat=&quot;parameter in parameterArray track by $index&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;form-group&quot; ng-if= &quot;parameter.type != \&apos;boolean\&apos;&quot; ng-class=&quot;{\&apos;has-error\&apos;: form1.{{parameter.name}}.$error.maxlength}&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;label for=&quot;{{parameter.name}}&quot; class=&quot;col-md-5 col-sm-5 col-xs-5 control-label&quot;&gt;{{parameter.name}}&lt;/label&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;col-md-6 col-sm-6 col-xs-6&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;input name=&quot;{{parameter.name}}&quot; ng-model=&quot;parameterArray[$index].value&quot; type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;{{parameter.name}}&quot; ng-maxlength=&quot;32&quot; placeholder=&quot;Enter value of {{parameter.name}}&quot;/&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;help-block&quot; ng-messages=&quot;form1.{{parameter.name}}.$error&quot; ng-messages=&quot;form1.parameter.$error&quot; ng-show=&quot;!form1.{{parameter.name}}.$valid&quot; role=&quot;alert&quot;&gt;&lt;p style=&quot;font-size: 15px; float: right&quot; &gt;Maximum 32 characters allowed!&lt;/p&gt;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div ng-if=&quot;parameter.type == \&apos;boolean\&apos;&quot; class=&quot;form-group&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;label class=&quot;col-md-5 col-sm-5 col-xs-5 control-label&quot;&gt;{{parameter.name}}&lt;/label&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;col-md-6 col-sm-6 col-xs-6&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; &lt;input ng-model=&quot;parameterArray[$index].value&quot; type=&quot;checkbox&quot; style=&quot;float: left; padding-top: 2% &quot; &gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;form-group&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div style=&quot;width:89%; padding-left: 11%; padding-bottom:3%&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;button class=&quot;btn btn-block btn-lg&quot; type=&quot;button&quot; ng-click=&quot;invokeCommand()&quot;&gt;{{label}}&lt;/button&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;form-group&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div ng-if=&quot;!parameterArray&quot;  style=&quot;width:91%; padding-left: 9%; padding-bottom:3%&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;button class=&quot;btn btn-block btn-lg&quot; type=&quot;button&quot; ng-click=&quot;invokeCommand()&quot;&gt;{{label}}&lt;/button&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;p ng-if=&quot;commandResult&quot;&gt;Result: {{commandResult}} &lt;/p&gt;&apos;&#x9;&#x9;&#x9;&#xd;&#xa;&#x9;&#x9;directive.link  =  function (scope, element, attrs) { &#xd;&#xa;&#x9;&#x9;&#x9;if (attrs.parameters) {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;commandParameters =  attrs.parameters.split(&apos;;&apos;);&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;scope.parameterArray = [];&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;angular.forEach(commandParameters, function(value, key) {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;if (value.indexOf(&quot;:&quot;) &gt; -1) {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;this.push({&quot;type&quot;: value.split(&apos;:&apos;)[1].trim(), &quot;name&quot;: value.split(&apos;:&apos;)[0].trim(), value: &quot;&quot;});&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;}, scope.parameterArray);&#xd;&#xa;&#x9;&#x9;&#x9;}&#xd;&#xa;&#x9;&#x9;}&#x9;&#x9;&#xd;&#xa;&#x9;&#x9;directive.controller = [&apos;$scope&apos;, function ($scope) {&#xd;&#xa;&#x9;&#x9;&#x9;function createParamsStringForUrl(paramArray) {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;if (paramArray == undefined) {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;return &quot;&quot;;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;}&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;var result = &quot;?&quot;;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;var i  = 0;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;for (i = 0; i &lt; paramArray.length - 1; i++) {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;result = result + paramArray[i].name + &quot;=&quot; + paramArray[i].value + &quot;&amp;&quot;;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;}&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;result = result + paramArray[i].name + &quot;=&quot; + paramArray[i].value;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;return result;&#xd;&#xa;&#x9;&#x9;&#x9;}&#xd;&#xa;&#x9;&#x9;&#x9;$scope.invokeCommand = function() {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;$scope.invoke()($scope.name + createParamsStringForUrl($scope.parameterArray)).success(function(response) {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;$scope.commandResult = response.__RESULT;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;});&#xd;&#xa;&#x9;&#x9;&#x9;}&#xd;&#xa;&#x9;&#x9;}]&#xd;&#xa;&#xd;&#xa;&#x9;&#x9;return directive;&#xd;&#xa;&#x9;});&#xd;&#xa;&lt;/script&gt;&#xd;&#xa;&lt;div class=&quot;container-fluid&quot; ng-controller=&quot;GenericComponentCtrl&quot;&gt;&#xd;&#xa;&#x9;&lt;div class=&quot;row&quot;&gt;&#xd;&#xa;&#x9;&#x9;&lt;div class=&quot;col-md-4 col-md-offset-4&quot;&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;panel panel-primary text-center&quot;&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;panel-heading&quot;&gt;Status&lt;/div&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;panel-body&quot;&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div ng-repeat=&quot;status in statusAsArray&quot;&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;span&gt; {{status.label}} is {{status.value}}&lt;/span&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&lt;/div&gt;&#xd;&#xa;&#x9;&#x9;&lt;/div&gt;&#xd;&#xa;&#x9;&lt;/div&gt;&#xd;&#xa;&#x9;&lt;div class=&quot;row&quot;&gt;&#xd;&#xa;&#x9;&#x9;&lt;div class=&quot;col-md-4 col-md-offset-4&quot;&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;panel panel-primary text-center&quot;&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;panel-heading&quot;&gt;Commands&lt;/div&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;panel-body&quot;&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div ng-repeat = &quot;command in commands&quot;&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;command name=&quot;{{command.name}}&quot; label=&quot;{{camelCaseToTextWithSpaces(command.name)}}&quot; parameters=&quot;{{command.parameters}}&quot; func=&quot;invoke&quot;&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/command&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&lt;/div&gt;&#xd;&#xa;&#x9;&#x9;&lt;/div&gt;&#xd;&#xa;&#x9;&lt;/div&gt;&#xd;&#xa;&lt;/div&gt;"/>
+<attribute NAME="value" VALUE="&lt;script&gt;&#xd;&#xa;&#x9;var ui = angular.module(&quot;ui&quot;);&#xd;&#xa;&#x9;ui.controller(&quot;GenericComponentCtrl&quot;, [&apos;$scope&apos;, &apos;$http&apos;, &apos;$interval&apos;, &apos;$location&apos;, function($scope, $http, $interval, $location) {&#x9;&#x9;&#xd;&#xa;&#x9;&#x9;$scope.commands = [];&#x9;&#x9;&#xd;&#xa;&#x9;&#x9;$http.get($scope.getBoardUrl(&quot;getCommands&quot;)).success(function(response) {&#xd;&#xa;&#x9;&#x9;&#x9;var commands = response;&#xd;&#xa;&#x9;&#x9;&#x9;for (var i = 0; i &lt; commands.length; i++) {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;$scope.commands[i]= {};&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;command = commands[i];&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;if (command.parameters) {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;$scope.commands[i].parameters= command.parameters;&#x9;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;}&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;$scope.commands[i].name = command.command;&#xd;&#xa;&#x9;&#x9;&#x9;}&#xd;&#xa;&#x9;&#x9;})&#xd;&#xa;&#x9;}]);&#xd;&#xa;&#x9;ui.directive(&apos;command&apos;, function() {&#xd;&#xa;&#x9;&#x9;var directive = {};&#x9;&#xd;&#xa;&#x9;&#x9;directive.restrict = &apos;E&apos;;&#xd;&#xa;&#x9;&#x9;directive.scope = {&#xd;&#xa;&#x9;&#x9;&#x9;label: &apos;@&apos;,&#xd;&#xa;&#x9;&#x9;&#x9;name: &apos;@&apos;,&#xd;&#xa;&#x9;&#x9;&#x9;parameters: &apos;@&apos;,&#xd;&#xa;&#x9;&#x9;&#x9;invoke: &apos;&amp;func&apos;&#x9;&#x9;&#xd;&#xa;&#x9;&#x9;};&#x9;&#x9;&#x9;&#x9;&#xd;&#xa;&#x9;&#x9;directive.template = &#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&apos;&lt;div ng-if=&quot;parameterArray&quot; class=&quot;panel panel-default&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div ng-form=&quot;form1&quot; class=&quot;form-horizontal&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div ng-repeat=&quot;parameter in parameterArray track by $index&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;form-group&quot; ng-if= &quot;parameter.type != \&apos;boolean\&apos;&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;label for=&quot;{{parameter.name}}&quot; class=&quot;col-md-5 col-sm-5 col-xs-5 control-label&quot;&gt;{{parameter.name}}&lt;/label&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;col-md-6 col-sm-6 col-xs-6&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;input name=&quot;{{parameter.name}}&quot; ng-model=&quot;parameterArray[$index].value&quot; type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;{{parameter.name}}&quot; placeholder=&quot;Enter value of {{parameter.name}}&quot;/&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div ng-show=&quot;{{parameter.name.length}} &gt; 32&quot;&gt;&lt;p style=&quot;font-size: 15px;&quot; &gt;Parameters names must be maximum 32 characters length!&lt;/p&gt;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div ng-show=&quot;{{name.length}} &gt; 64&quot; &gt;&lt;p style=&quot;font-size: 15px;&quot; &gt;Command names must be maximum 64 characters length!&lt;/p&gt;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div ng-if=&quot;parameter.type == \&apos;boolean\&apos;&quot; class=&quot;form-group&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;label class=&quot;col-md-5 col-sm-5 col-xs-5 control-label&quot;&gt;{{parameter.name}}&lt;/label&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;col-md-6 col-sm-6 col-xs-6&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; &lt;input ng-model=&quot;parameterArray[$index].value&quot; type=&quot;checkbox&quot; style=&quot;float: left; padding-top: 2% &quot; &gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;form-group&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div style=&quot;width:89%; padding-left: 11%; padding-bottom:3%&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;button class=&quot;btn btn-block btn-lg&quot; type=&quot;button&quot; ng-click=&quot;invokeCommand()&quot;&gt;{{label}}&lt;/button&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;form-group&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div ng-if=&quot;!parameterArray&quot;  style=&quot;width:91%; padding-left: 9%; padding-bottom:3%&quot;&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;button class=&quot;btn btn-block btn-lg&quot; type=&quot;button&quot; ng-click=&quot;invokeCommand()&quot;&gt;{{label}}&lt;/button&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;\&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;p ng-if=&quot;commandResult&quot;&gt;Result: {{commandResult}} &lt;/p&gt;&apos;&#x9;&#x9;&#xd;&#xa;&#x9;&#x9;directive.link  =  function (scope, element, attrs) { &#xd;&#xa;&#x9;&#x9;&#x9;if (attrs.parameters) {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;commandParameters =  attrs.parameters.split(&apos;;&apos;);&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;scope.parameterArray = [];&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;angular.forEach(commandParameters, function(value, key) {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;if (value.indexOf(&quot;:&quot;) &gt; -1) {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;this.push({&quot;type&quot;: value.split(&apos;:&apos;)[1].trim(), &quot;name&quot;: value.split(&apos;:&apos;)[0].trim(), value: &quot;&quot;});&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;}, scope.parameterArray);&#xd;&#xa;&#x9;&#x9;&#x9;}&#xd;&#xa;&#x9;&#x9;}&#x9;&#x9;&#xd;&#xa;&#x9;&#x9;directive.controller = [&apos;$scope&apos;, function ($scope) {&#xd;&#xa;&#x9;&#x9;&#x9;function createParamsStringForUrl(paramArray) {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;if (paramArray == undefined) {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;return &quot;&quot;;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;}&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;var result = &quot;?&quot;;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;var i  = 0;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;for (i = 0; i &lt; paramArray.length - 1; i++) {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;result = result + paramArray[i].name + &quot;=&quot; + paramArray[i].value + &quot;&amp;&quot;;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;}&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;result = result + paramArray[i].name + &quot;=&quot; + paramArray[i].value;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;return result;&#xd;&#xa;&#x9;&#x9;&#x9;}&#xd;&#xa;&#x9;&#x9;&#x9;$scope.invokeCommand = function() {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;$scope.invoke()($scope.name + createParamsStringForUrl($scope.parameterArray)).success(function(response) {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;$scope.commandResult = response.__RESULT;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;});&#xd;&#xa;&#x9;&#x9;&#x9;}&#xd;&#xa;&#x9;&#x9;}]&#xd;&#xa;&#xd;&#xa;&#x9;&#x9;return directive;&#xd;&#xa;&#x9;});&#xd;&#xa;&lt;/script&gt;&#xd;&#xa;&lt;div class=&quot;container-fluid&quot; ng-controller=&quot;GenericComponentCtrl&quot;&gt;&#xd;&#xa;&#x9;&lt;div class=&quot;row&quot;&gt;&#xd;&#xa;&#x9;&#x9;&lt;div class=&quot;col-md-4 col-md-offset-4&quot;&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;panel panel-primary text-center&quot;&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;panel-heading&quot;&gt;Status&lt;/div&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;panel-body&quot;&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div ng-repeat=&quot;status in statusAsArray&quot;&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;span&gt; {{status.label}} is {{status.value}}&lt;/span&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&lt;/div&gt;&#xd;&#xa;&#x9;&#x9;&lt;/div&gt;&#xd;&#xa;&#x9;&lt;/div&gt;&#xd;&#xa;&#x9;&lt;div class=&quot;row&quot;&gt;&#xd;&#xa;&#x9;&#x9;&lt;div class=&quot;col-md-4 col-md-offset-4&quot;&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;panel panel-primary text-center&quot;&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;panel-heading&quot;&gt;Commands&lt;/div&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;panel-body&quot;&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;div ng-repeat = &quot;command in commands&quot;&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;command name=&quot;{{command.name}}&quot; label=&quot;{{camelCaseToTextWithSpaces(command.name)}}&quot; parameters=&quot;{{command.parameters}}&quot; func=&quot;invoke&quot;&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/command&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;&#xd;&#xa;&#x9;&#x9;&#x9;&lt;/div&gt;&#xd;&#xa;&#x9;&#x9;&lt;/div&gt;&#xd;&#xa;&#x9;&lt;/div&gt;&#xd;&#xa;&lt;/div&gt;"/>
 </node>
-<node TEXT="" ID="ID_1506449572" CREATED="1473160248192" MODIFIED="1473160248192">
+<node TEXT="" ID="ID_457894429" CREATED="1473235743270" MODIFIED="1473235743270">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="filesDownloaded"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1119377860" CREATED="1473160248193" MODIFIED="1473160248193">
+<node TEXT="" ID="ID_418101536" CREATED="1473235743271" MODIFIED="1473235743271">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="vbox"/>
-<node TEXT="" ID="ID_1095368682" CREATED="1473160248194" MODIFIED="1473160248194">
+<node TEXT="" ID="ID_807562030" CREATED="1473235743272" MODIFIED="1473235743272">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_409026069" CREATED="1473160248195" MODIFIED="1473160248195">
+<node TEXT="" ID="ID_1770871622" CREATED="1473235743273" MODIFIED="1473235743273">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="vbox"/>
 </node>
-<node TEXT="" ID="ID_1570563347" CREATED="1473160248195" MODIFIED="1473160248195">
+<node TEXT="" ID="ID_37751816" CREATED="1473235743273" MODIFIED="1473235743273">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="documentation"/>
 </node>
-<node TEXT="" ID="ID_639312351" CREATED="1473160248195" MODIFIED="1473160248195">
+<node TEXT="" ID="ID_1676516983" CREATED="1473235743274" MODIFIED="1473235743274">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="width"/>
 </node>
-<node TEXT="" ID="ID_647304780" CREATED="1473160248196" MODIFIED="1473160248196">
+<node TEXT="" ID="ID_299029476" CREATED="1473235743274" MODIFIED="1473235743274">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="space right"/>
 </node>
-<node TEXT="" ID="ID_1874450206" CREATED="1473160248196" MODIFIED="1473160248196">
+<node TEXT="" ID="ID_1992450461" CREATED="1473235743274" MODIFIED="1473235743274">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="space left"/>
 </node>
-<node TEXT="" ID="ID_429414624" CREATED="1473160248197" MODIFIED="1473160248197">
+<node TEXT="" ID="ID_92244058" CREATED="1473235743275" MODIFIED="1473235743275">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="componentTemplate"/>
 <attribute NAME="value" VALUE="&lt;div class = &quot;vert&quot; style=&quot;width: $fp.width; margin-right: $fp.space right; margin-left: $fp.space left;&quot;&gt;$fp.children.htmlComponent&lt;/div&gt;"/>
 </node>
-<node TEXT="" ID="ID_1892899761" CREATED="1473160248197" MODIFIED="1473160248197">
+<node TEXT="" ID="ID_1787977427" CREATED="1473235743275" MODIFIED="1473235743275">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="filesDownloaded"/>
 </node>
-<node TEXT="" ID="ID_821521503" CREATED="1473160248198" MODIFIED="1473160248198">
+<node TEXT="" ID="ID_427266725" CREATED="1473235743275" MODIFIED="1473235743275">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="category.hasChildren_htmlComponent"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1077176907" CREATED="1473160248199" MODIFIED="1473160248199">
+<node TEXT="" ID="ID_1448900374" CREATED="1473235743276" MODIFIED="1473235743276">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="hbox"/>
-<node TEXT="" ID="ID_797678302" CREATED="1473160248199" MODIFIED="1473160248199">
+<node TEXT="" ID="ID_415862776" CREATED="1473235743276" MODIFIED="1473235743276">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1661372901" CREATED="1473160248200" MODIFIED="1473160248200">
+<node TEXT="" ID="ID_405802434" CREATED="1473235743278" MODIFIED="1473235743278">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="hbox"/>
 </node>
-<node TEXT="" ID="ID_701625611" CREATED="1473160248200" MODIFIED="1473160248200">
+<node TEXT="" ID="ID_1787489663" CREATED="1473235743278" MODIFIED="1473235743278">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="documentation"/>
 </node>
-<node TEXT="" ID="ID_1706702852" CREATED="1473160248200" MODIFIED="1473160248200">
+<node TEXT="" ID="ID_1034261249" CREATED="1473235743279" MODIFIED="1473235743279">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="width"/>
 </node>
-<node TEXT="" ID="ID_1692001857" CREATED="1473160248201" MODIFIED="1473160248201">
+<node TEXT="" ID="ID_283016718" CREATED="1473235743279" MODIFIED="1473235743279">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="space right"/>
 </node>
-<node TEXT="" ID="ID_1737850235" CREATED="1473160248201" MODIFIED="1473160248201">
+<node TEXT="" ID="ID_22741358" CREATED="1473235743280" MODIFIED="1473235743280">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="space left"/>
 </node>
-<node TEXT="" ID="ID_1659270270" CREATED="1473160248201" MODIFIED="1473160248201">
+<node TEXT="" ID="ID_1232650817" CREATED="1473235743280" MODIFIED="1473235743280">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="componentTemplate"/>
 <attribute NAME="value" VALUE="&lt;div class = &quot;horiz&quot; style=&quot;width: $fp.width; margin-right: $fp.space right; margin-left: $fp.space left;&quot;&gt;$fp.children.htmlComponent&lt;/div&gt;"/>
 </node>
-<node TEXT="" ID="ID_1453938092" CREATED="1473160248202" MODIFIED="1473160248202">
+<node TEXT="" ID="ID_1025385557" CREATED="1473235743280" MODIFIED="1473235743280">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="filesDownloaded"/>
 </node>
-<node TEXT="" ID="ID_65806661" CREATED="1473160248202" MODIFIED="1473160248202">
+<node TEXT="" ID="ID_212222313" CREATED="1473235743281" MODIFIED="1473235743281">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="category.hasChildren_htmlComponent"/>
 </node>
 </node>
-<node TEXT="" ID="ID_158892491" CREATED="1473160248202" MODIFIED="1473160248202">
+<node TEXT="" ID="ID_1199708634" CREATED="1473235743281" MODIFIED="1473235743281">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="column"/>
-<node TEXT="" ID="ID_1189018068" CREATED="1473160248203" MODIFIED="1473160248203">
+<node TEXT="" ID="ID_1695719884" CREATED="1473235743282" MODIFIED="1473235743282">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1587311706" CREATED="1473160248203" MODIFIED="1473160248203">
+<node TEXT="" ID="ID_173610083" CREATED="1473235743283" MODIFIED="1473235743283">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="column"/>
 </node>
-<node TEXT="" ID="ID_1697213527" CREATED="1473160248204" MODIFIED="1473160248204">
+<node TEXT="" ID="ID_639163761" CREATED="1473235743284" MODIFIED="1473235743284">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="documentation"/>
 </node>
-<node TEXT="" ID="ID_1016934711" CREATED="1473160248204" MODIFIED="1473160248204">
+<node TEXT="" ID="ID_848211344" CREATED="1473235743285" MODIFIED="1473235743285">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="col witdh"/>
 </node>
-<node TEXT="" ID="ID_231983176" CREATED="1473160248204" MODIFIED="1473160248204">
+<node TEXT="" ID="ID_1404673322" CREATED="1473235743286" MODIFIED="1473235743286">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="componentTemplate"/>
 <attribute NAME="value" VALUE="&lt;div class=&quot;$fp.col witdh&quot;&gt;$fp.children.htmlComponent&lt;/div&gt;"/>
 </node>
-<node TEXT="" ID="ID_703535380" CREATED="1473160248205" MODIFIED="1473160248205">
+<node TEXT="" ID="ID_1548318833" CREATED="1473235743286" MODIFIED="1473235743286">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="filesDownloaded"/>
 </node>
-<node TEXT="" ID="ID_1468191180" CREATED="1473160248205" MODIFIED="1473160248205">
+<node TEXT="" ID="ID_1564770445" CREATED="1473235743286" MODIFIED="1473235743286">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="category.hasChildren_htmlComponent"/>
 </node>
 </node>
-<node TEXT="" ID="ID_427924484" CREATED="1473160248206" MODIFIED="1473160248206">
+<node TEXT="" ID="ID_358419230" CREATED="1473235743288" MODIFIED="1473235743288">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="label"/>
-<node TEXT="" ID="ID_1453159908" CREATED="1473160248207" MODIFIED="1473160248207">
+<node TEXT="" ID="ID_1961574702" CREATED="1473235743288" MODIFIED="1473235743288">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_215686317" CREATED="1473160248207" MODIFIED="1473160248207">
+<node TEXT="" ID="ID_1495813944" CREATED="1473235743289" MODIFIED="1473235743289">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="label"/>
 </node>
-<node TEXT="" ID="ID_253892499" CREATED="1473160248208" MODIFIED="1473160248208">
+<node TEXT="" ID="ID_1985863190" CREATED="1473235743289" MODIFIED="1473235743289">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="documentation"/>
 <attribute NAME="value" VALUE="I&apos;m a label and i can only stay on panel"/>
 </node>
-<node TEXT="" ID="ID_1923475736" CREATED="1473160248208" MODIFIED="1473160248208">
+<node TEXT="" ID="ID_1599583739" CREATED="1473235743290" MODIFIED="1473235743290">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="width"/>
 </node>
-<node TEXT="" ID="ID_1251751824" CREATED="1473160248209" MODIFIED="1473160248209">
+<node TEXT="" ID="ID_1676507093" CREATED="1473235743290" MODIFIED="1473235743290">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="space right"/>
 </node>
-<node TEXT="" ID="ID_929661364" CREATED="1473160248209" MODIFIED="1473160248209">
+<node TEXT="" ID="ID_1397366876" CREATED="1473235743291" MODIFIED="1473235743291">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="space left"/>
 </node>
-<node TEXT="" ID="ID_1690245069" CREATED="1473160248210" MODIFIED="1473160248210">
+<node TEXT="" ID="ID_556697955" CREATED="1473235743295" MODIFIED="1473235743295">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="text"/>
 </node>
-<node TEXT="" ID="ID_170154482" CREATED="1473160248210" MODIFIED="1473160248210">
+<node TEXT="" ID="ID_1283416555" CREATED="1473235743296" MODIFIED="1473235743296">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="componentTemplate"/>
 <attribute NAME="value" VALUE="&lt;span class=&quot;label label-default&quot; style=&quot;width: $fp.width; margin-right: $fp.space right; margin-left: $fp.space left;&quot;&gt;$fp.text&lt;/span&gt;&#xd;&#xa;&lt;br/&gt;"/>
 </node>
-<node TEXT="" ID="ID_1596104195" CREATED="1473160248210" MODIFIED="1473160248210">
+<node TEXT="" ID="ID_1111664623" CREATED="1473235743297" MODIFIED="1473235743297">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="angularModulesToImport"/>
 <attribute NAME="value" VALUE="flower-platform-libs/html-components/downloaded-files/accordion.js"/>
 </node>
 </node>
-<node TEXT="" ID="ID_194427907" CREATED="1473160248211" MODIFIED="1473160248211">
+<node TEXT="" ID="ID_652569256" CREATED="1473235743299" MODIFIED="1473235743299">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="row"/>
-<node TEXT="" ID="ID_626827479" CREATED="1473160248212" MODIFIED="1473160248212">
+<node TEXT="" ID="ID_488620619" CREATED="1473235743300" MODIFIED="1473235743300">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1383983472" CREATED="1473160248213" MODIFIED="1473160248213">
+<node TEXT="" ID="ID_1676409508" CREATED="1473235743301" MODIFIED="1473235743301">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="row"/>
 </node>
-<node TEXT="" ID="ID_1239285937" CREATED="1473160248213" MODIFIED="1473160248213">
+<node TEXT="" ID="ID_1533421475" CREATED="1473235743301" MODIFIED="1473235743301">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="documentation"/>
 </node>
-<node TEXT="" ID="ID_102051607" CREATED="1473160248216" MODIFIED="1473160248216">
+<node TEXT="" ID="ID_1795015952" CREATED="1473235743303" MODIFIED="1473235743303">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="componentTemplate"/>
 <attribute NAME="value" VALUE="&lt;div class=&quot;row&quot;&gt;$fp.children.rowChild&lt;/div&gt;"/>
 </node>
-<node TEXT="" ID="ID_1312303011" CREATED="1473160248217" MODIFIED="1473160248217">
+<node TEXT="" ID="ID_1467540190" CREATED="1473235743303" MODIFIED="1473235743303">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="filesDownloaded"/>
 </node>
-<node TEXT="" ID="ID_1676997429" CREATED="1473160248217" MODIFIED="1473160248217">
+<node TEXT="" ID="ID_809566239" CREATED="1473235743304" MODIFIED="1473235743304">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="category.hasChildren_rowChild"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1287109363" CREATED="1473160248218" MODIFIED="1473160248218">
+<node TEXT="" ID="ID_311075306" CREATED="1473235743305" MODIFIED="1473235743305">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="panel"/>
-<node TEXT="" ID="ID_1112968119" CREATED="1473160248218" MODIFIED="1473160248218">
+<node TEXT="" ID="ID_262194604" CREATED="1473235743305" MODIFIED="1473235743305">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_1079280449" CREATED="1473160248219" MODIFIED="1473160248219">
+<node TEXT="" ID="ID_1962863689" CREATED="1473235743306" MODIFIED="1473235743306">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="panel"/>
 </node>
-<node TEXT="" ID="ID_1720452264" CREATED="1473160248220" MODIFIED="1473160248220">
+<node TEXT="" ID="ID_1483526236" CREATED="1473235743306" MODIFIED="1473235743306">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="documentation"/>
 <attribute NAME="value" VALUE="Panel!!!"/>
 </node>
-<node TEXT="" ID="ID_857460960" CREATED="1473160248220" MODIFIED="1473160248220">
+<node TEXT="" ID="ID_69730466" CREATED="1473235743306" MODIFIED="1473235743306">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="width"/>
 </node>
-<node TEXT="" ID="ID_1252960633" CREATED="1473160248220" MODIFIED="1473160248220">
+<node TEXT="" ID="ID_265108739" CREATED="1473235743307" MODIFIED="1473235743307">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="space right"/>
 </node>
-<node TEXT="" ID="ID_364301249" CREATED="1473160248221" MODIFIED="1473160248221">
+<node TEXT="" ID="ID_398067805" CREATED="1473235743307" MODIFIED="1473235743307">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="space left"/>
 </node>
-<node TEXT="" ID="ID_1353588629" CREATED="1473160248221" MODIFIED="1473160248221">
+<node TEXT="" ID="ID_1108103580" CREATED="1473235743307" MODIFIED="1473235743307">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="heading"/>
 </node>
-<node TEXT="" ID="ID_334370412" CREATED="1473160248222" MODIFIED="1473160248222">
+<node TEXT="" ID="ID_1011689014" CREATED="1473235743308" MODIFIED="1473235743308">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="componentTemplate"/>
 <attribute NAME="value" VALUE="&lt;div class=&quot;panel panel-primary text-center&quot; style=&quot;width: $fp.width; margin-right: $fp.space right; margin-left: $fp.space left;&quot;  &gt;&#xd;&#xa;&#x9;&lt;div class=&quot;panel-heading&quot;&gt;$fp.heading&lt;/div&gt;&#xd;&#xa;&#x9;&lt;div class=&quot;panel-body&quot;&gt;&#xd;&#xa;&#x9;&#x9;&#x9;$fp.children.htmlComponent&#xd;&#xa;&#x9;&lt;/div&gt;&#xd;&#xa;&lt;/div&gt;"/>
 </node>
-<node TEXT="" ID="ID_1809774456" CREATED="1473160248222" MODIFIED="1473160248222">
+<node TEXT="" ID="ID_1326315171" CREATED="1473235743308" MODIFIED="1473235743308">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="angularModulesToImport"/>
 <attribute NAME="value" VALUE="flower-platform-libs/html-components/downloaded-files/buttons.js,flower-platform-libs/html-components/downloaded-files/collapse.js"/>
 </node>
-<node TEXT="" ID="ID_1750854649" CREATED="1473160248222" MODIFIED="1473160248222">
+<node TEXT="" ID="ID_517870019" CREATED="1473235743308" MODIFIED="1473235743308">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="category.hasChildren_htmlComponent"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1647332718" CREATED="1473160248223" MODIFIED="1473160248223">
+<node TEXT="" ID="ID_1748363" CREATED="1473235743309" MODIFIED="1473235743309">
 <attribute NAME="nodeType" VALUE="typeOrCategoryDescriptor"/>
 <attribute NAME="name" VALUE="span"/>
-<node TEXT="" ID="ID_1271684406" CREATED="1473160248223" MODIFIED="1473160248223">
+<node TEXT="" ID="ID_1919727060" CREATED="1473235743312" MODIFIED="1473235743312">
 <attribute NAME="nodeType" VALUE="containingCategory"/>
 <attribute NAME="doNotAddMetamodelPrefix" VALUE="true" OBJECT="java.lang.Boolean|true"/>
 <attribute NAME="name" VALUE="category.component"/>
 </node>
-<node TEXT="" ID="ID_19918543" CREATED="1473160248229" MODIFIED="1473160248229">
+<node TEXT="" ID="ID_1408313897" CREATED="1473235743313" MODIFIED="1473235743313">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="import"/>
 <attribute NAME="value" VALUE="span"/>
 </node>
-<node TEXT="" ID="ID_1924924136" CREATED="1473160248230" MODIFIED="1473160248230">
+<node TEXT="" ID="ID_969372220" CREATED="1473235743314" MODIFIED="1473235743314">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="documentation"/>
 </node>
-<node TEXT="" ID="ID_1041685501" CREATED="1473160248230" MODIFIED="1473160248230">
+<node TEXT="" ID="ID_482608929" CREATED="1473235743314" MODIFIED="1473235743314">
 <attribute NAME="nodeType" VALUE="propertyDescriptor"/>
 <attribute NAME="extraInfo.PROP_TYPE_POINTER" VALUE="false" OBJECT="java.lang.Boolean|false"/>
 <attribute NAME="name" VALUE="text"/>
 </node>
-<node TEXT="" ID="ID_1545107390" CREATED="1473160248232" MODIFIED="1473160248232">
+<node TEXT="" ID="ID_180070462" CREATED="1473235743314" MODIFIED="1473235743314">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="componentTemplate"/>
 <attribute NAME="value" VALUE="&lt;span&gt;$fp.text&lt;/span&gt;&#xd;&#xa;&lt;br/&gt;"/>
 </node>
-<node TEXT="" ID="ID_922436000" CREATED="1473160248232" MODIFIED="1473160248232">
+<node TEXT="" ID="ID_441669124" CREATED="1473235743314" MODIFIED="1473235743314">
 <attribute NAME="nodeType" VALUE="genericDescriptor"/>
 <attribute NAME="behaviorType" VALUE="filesDownloaded"/>
 </node>
